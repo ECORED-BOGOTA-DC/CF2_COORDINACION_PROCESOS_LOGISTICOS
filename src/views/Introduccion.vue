@@ -9,11 +9,11 @@
           i.fas.fa-info
       h1 Introducción
     
-    figure.mb-5
+    p.mb-5 A través del siguiente video se da la bienvenida al componente formativo en gestión por medio de una voz amiga que le recuerda que somos personas quienes estamos detrás de cada pantalla.
+    
+    figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="853" height="480" src="https://www.youtube.com/embed/t1z6CgtSRq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
-    
 
 </template>
 
