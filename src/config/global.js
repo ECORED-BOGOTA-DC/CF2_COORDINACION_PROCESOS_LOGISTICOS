@@ -413,6 +413,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
+          nombre: 'Yuly Andrea Rey Quiñonez',
+          cargo: 'Diseño web',
+          centro: 'Centro Industrial del Diseño y la Manufactura',
+          regional: 'Regional Santander',
+        },
+        {
           nombre: 'Diego Fernando Velasco Güiza',
           cargo: 'Desarrollo Fullstack',
           centro:

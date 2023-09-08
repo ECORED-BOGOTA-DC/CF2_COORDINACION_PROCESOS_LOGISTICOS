@@ -359,7 +359,7 @@
             
     .row.justify-content-center.mb-4
       .col-lg-4.col-sm-8(data-aos="fade-right")
-        a.anexo(:href="obtenerLink('downloads/otrosTiposEmbalaje.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('downloads/Otros_tipos_embalaje.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
