@@ -197,12 +197,18 @@ export default {
       },
     ],
     subMenu: [
-      /*{
+      {
+        icono: 'fas fa-sitemap',
+        titulo: 'Síntesis',
+        nombreRuta: 'sintesis',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },*/
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -430,14 +436,37 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: [
-            'Wilson Andres Arenales Caceres',
-            'Gilberto Junior Rodriguez Rodriguez',
-            'Lina Marcela Perez',
-            'Víctor Cardenas',
-            'Ricardo Vasquez Arrovaye',
-            'Oleg Litvin',
-          ],
+          nombre: 'Wilson Andres Arenales Caceres',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Gilberto Junior Rodriguez Rodriguez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Lina Marcela Perez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Víctor Cardenas',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Ricardo Vasquez Arrovaye',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Oleg Litvin',
           cargo: 'Producción audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',

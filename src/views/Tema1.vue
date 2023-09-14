@@ -152,9 +152,6 @@
             p Llega el equipo mecánico, incluyendo la implementación de cintas transportadoras y métodos para sujetar automáticamente las cargas a los pallets. Cada uno de estos métodos produjo un aumento en la eficiencia de los almacenes; generalmente, los almacenes más eficientes son los que logran albergar la mayor cantidad de producto por metro cuadrado de espacio disponible, con esto se reducen costos como los de calefacción, mantenimiento y administración.
         
     p.mb-5 La evolución es buena pero cada sistema tiene sus cosas a tener en cuenta, por ejemplo, las pilas simples presentan dificultad porque al producirse el mayor peso sobre las existencias ubicadas en la parte más baja, puede dañar esa parte y no es fácil llegar a esas cajas sin bajar las que están sobre ella; para que lo entienda mejor, imagínese una pila de monedas en la que haya por lo menos 10 monedas una sobre otra y usted quiere quitar la de abajo sin que se caigan las otras. En este modelo también se debe tener en cuenta que la altura de cada pila tiene un límite que por lo general es de hasta 7 metros, de esta manera se puede mantener un sistema que no tenga tanto riesgo de caída por inestabilidad, por estas razones, la mayoría de las empresas comerciales invierten en algún tipo de sistemas de estanterías que reduzca el riesgo.
-
-    .titulo-quinto.color-acento-contenido(data-aos="fade-right")
-      h4.mb-4 Estante
     
     .row.justify-content-center.mb-4
       .col-lg-10.align-self-center
