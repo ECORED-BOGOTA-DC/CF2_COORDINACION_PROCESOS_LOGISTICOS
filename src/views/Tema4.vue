@@ -2,18 +2,18 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Requerimientos para el funcionamiento de los almacenes
 
-    p.mb-4 Los almacenes constituyen un eslabón fundamental en los flujos físicos de mercancías desde un origen a un destino y junto a la gestión de pedidos y compra, la producción, la gestión de inventarios, el transporte, la distribución e incluso el reciclaje e integran un sistema logístico que es vital para el funcionamiento de la economía.
+    p.mb-4(data-aos="fade-right") Los almacenes constituyen un eslabón fundamental en los flujos físicos de mercancías desde un origen a un destino y junto a la gestión de pedidos y compra, la producción, la gestión de inventarios, el transporte, la distribución e incluso el reciclaje e integran un sistema logístico que es vital para el funcionamiento de la economía.
 
     separador
     #t_4_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 4.1 Talento humano
 
-    p.mb-4 La mayor parte de las empresas o industrias de tamaño grande o mediano realizan una actividad de almacenaje, pero cada empresa es distinta por lo que no hay uniformidad en el lugar en el que están ubicados los puestos relacionados con el almacenamiento en la organización de la empresa. Las funciones de cada puesto varían en función de las empresas; a pesar de esto hay determinados “puestos tipo” en el almacén que normalmente cuentan con unas funciones básicas comunes como se muestra a continuación:
+    p.mb-4(data-aos="fade-right") La mayor parte de las empresas o industrias de tamaño grande o mediano realizan una actividad de almacenaje, pero cada empresa es distinta por lo que no hay uniformidad en el lugar en el que están ubicados los puestos relacionados con el almacenamiento en la organización de la empresa. Las funciones de cada puesto varían en función de las empresas; a pesar de esto hay determinados “puestos tipo” en el almacén que normalmente cuentan con unas funciones básicas comunes como se muestra a continuación:
 
     .row.justify-content-center.mb-4
       TabsA.color-acento-contenido.mb-0(data-aos="zoom-in")
@@ -70,7 +70,7 @@
     #t_4_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 4.2 Maquinaria y equipo según tipo y productos
 
-    p.mb-4 En un almacén las manipulaciones de bienes almacenados son muchos, y por eso aumentan los riesgos, de daños, costos en el tiempo y mano de obra, por eso se hacen importantes los equipos de manejo entre otros tenemos:
+    p.mb-4(data-aos="fade-right") En un almacén las manipulaciones de bienes almacenados son muchos, y por eso aumentan los riesgos, de daños, costos en el tiempo y mano de obra, por eso se hacen importantes los equipos de manejo entre otros tenemos:
 
     SlyderB.mb-5(:datos='datosSlyder' data-aos="zoom-in")
     
@@ -78,8 +78,8 @@
     #t_4_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 4.3 Tecnologías de información y comunicación (TIC)
 
-    p.mb-4 Las TIC se han convertido en un medio para agilizar, flexibilizar y mejorar el intercambio de información y operaciones utilizadas en la gestión de almacenes. Existe una diversidad de sistemas de almacenamiento, lo que implica que, para garantizar su adecuada operación, se recomienda evaluar las características de los productos, la unidad de almacenamiento, los elementos y/o equipos de manipulación, los costos de operación y las TIC disponibles para la identificación y ubicación de los productos en dichos sistemas dentro del proceso de selección.
-    p.mb-4 Los beneficios potenciales al utilizar TIC son:
+    p.mb-4(data-aos="fade-right") Las TIC se han convertido en un medio para agilizar, flexibilizar y mejorar el intercambio de información y operaciones utilizadas en la gestión de almacenes. Existe una diversidad de sistemas de almacenamiento, lo que implica que, para garantizar su adecuada operación, se recomienda evaluar las características de los productos, la unidad de almacenamiento, los elementos y/o equipos de manipulación, los costos de operación y las TIC disponibles para la identificación y ubicación de los productos en dichos sistemas dentro del proceso de selección.
+    p.mb-4(data-aos="fade-right") Los beneficios potenciales al utilizar TIC son:
     
     .row.justify-content-center.mb-5
       .col-lg-6.col-sm-10
@@ -107,7 +107,7 @@
             i.fas.fa-check-circle(style="color: #FE7062;")
             p.mb-0 Reducción de actividades en el centro de distribución.
 
-    p.mb-5 Mientras que algunas de sus desventajas son:
+    p.mb-5(data-aos="fade-right") Mientras que algunas de sus desventajas son:
     
     .row.mb-4
       .col-lg-6.col-sm-10(data-aos="fade-left")
@@ -116,7 +116,7 @@
             i.fas.fa-check-circle(style="color: #FE7062;")
             p.mb-0 Proceso de implementación largo, costoso y complejo, además cuando es mal instalado puede causar estragos operacionales y económicos.
 
-    p.mb-5 Las TIC son identificadas como transversales a los procesos de la gestión de almacenes desde su proceso de recepción y control hasta el despacho, contribuyendo a funciones de identificación y trazabilidad como el código de barras y el RFID. Por otro lado, existen algunas TIC que son específicas de procesos como el picking to light y voice, el cual se aplica al proceso de preparación de pedido. Para ser más específico se presenta el siguiente recurso que debe explorar en cada uno de los conceptos que destacan por qué las empresas deben estar apoyadas en las TIC:
+    p.mb-5(data-aos="fade-right") Las TIC son identificadas como transversales a los procesos de la gestión de almacenes desde su proceso de recepción y control hasta el despacho, contribuyendo a funciones de identificación y trazabilidad como el código de barras y el RFID. Por otro lado, existen algunas TIC que son específicas de procesos como el picking to light y voice, el cual se aplica al proceso de preparación de pedido. Para ser más específico se presenta el siguiente recurso que debe explorar en cada uno de los conceptos que destacan por qué las empresas deben estar apoyadas en las TIC:
     
     .titulo-quinto.color-acento-contenido(data-aos="fade-right")
       h4 Mapa de TIC en la gestión de almacenes
@@ -141,7 +141,7 @@
     #t_4_4.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 4.4 Normatividad aplicada a la operación de almacenes
 
-    p.mb-5 La normativa de seguridad es fundamental entendiendo que en la mayoría de los procesos operativos de los almacenes se cuenta con personal humano que a su vez es un desarrollador, por eso se deben mantener alejados y visibles, para eso se exponen unas normas en grupos así:
+    p.mb-5(data-aos="fade-right") La normativa de seguridad es fundamental entendiendo que en la mayoría de los procesos operativos de los almacenes se cuenta con personal humano que a su vez es un desarrollador, por eso se deben mantener alejados y visibles, para eso se exponen unas normas en grupos así:
 
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta BG01" data-aos="zoom-in")
       .row(titulo="Normas generales")
@@ -158,8 +158,8 @@
     #t_4_5.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 4.5 Factores de riesgo en un almacén
     
-    p.mb-4 Las actividades del almacén, generalmente, se realizan en unas condiciones especiales de temperatura, iluminación, humedad, ventilación y ruido; producidas por máquinas, herramientas, vehículos, etc. El trabajo que se realiza dentro del almacén también supone mover constantemente cargas pesadas, apilar en el suelo o en estanterías volúmenes considerables de mercancías y coordinar el desplazamiento de los medios o en vehículos de transporte interno con el tránsito de las personas, que a veces tiene lugar en los mismos pasillos o zonas de acceso.
-    p.mb-4 Los siguientes son factores que dependiendo de su manejo representan riesgos para el trabajador:
+    p.mb-4(data-aos="fade-right") Las actividades del almacén, generalmente, se realizan en unas condiciones especiales de temperatura, iluminación, humedad, ventilación y ruido; producidas por máquinas, herramientas, vehículos, etc. El trabajo que se realiza dentro del almacén también supone mover constantemente cargas pesadas, apilar en el suelo o en estanterías volúmenes considerables de mercancías y coordinar el desplazamiento de los medios o en vehículos de transporte interno con el tránsito de las personas, que a veces tiene lugar en los mismos pasillos o zonas de acceso.
+    p.mb-4(data-aos="fade-right") Los siguientes son factores que dependiendo de su manejo representan riesgos para el trabajador:
     
     .row.justify-content-center.mb-4
       .col-lg-12

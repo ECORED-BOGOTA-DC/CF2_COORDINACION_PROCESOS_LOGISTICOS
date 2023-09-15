@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Clases de almacenes
 
-    p.mb-4 A veces la actividad económica de una empresa puede exigir uno o varios tipos de almacén, todos han de estar diseñados en función de las necesidades específicas, en su función operativa y de acuerdo a las restricciones o posibilidades de cada situación y entorno.
+    p.mb-4(data-aos="fade-right") A veces la actividad económica de una empresa puede exigir uno o varios tipos de almacén, todos han de estar diseñados en función de las necesidades específicas, en su función operativa y de acuerdo a las restricciones o posibilidades de cada situación y entorno.
     
-    p.mb-4 Para la Revista de Logística Legis (2016) los tipos de almacenes se clasifican en:
+    p.mb-4(data-aos="fade-right") Para la Revista de Logística Legis (2016) los tipos de almacenes se clasifican en:
 
     .row.justify-content-center.mb-5
       .col-xl.col-md-3.col-6.mb-xl-0.mb-4(style="padding:4px;" data-aos="fade-right")
@@ -159,13 +159,13 @@
               .h4  Según el régimen jurídico
               p A la hora de escoger un sistema de almacenamiento de mercancías, se debe prestar atención al régimen jurídico por el que se gestionará dicho almacén. De ello dependerán importantes gastos derivados del almacenaje de productos.
     
-    .h4 Almacén propio
+    .h4(data-aos="fade-left") Almacén propio
     
-    p.mb-4 Es el más tradicional de todos, pero ha venido decayendo frente a otras opciones más rentables en cuanto a explotación del inmueble, puesto que implica hacer parte del negocio el complejo físico y el terreno, asumiendo gastos que no necesariamente están relacionados con la actividad económica de la compañía.
-    .h4 Almacén alquilado y renting
-    p.mb-4 Estas dos son las opciones más utilizadas porque no necesitan de una inversión inicial y sus costos varían en relación con las necesidades del negocio. El renting por su parte, asume servicios de mantenimiento y contempla tiempos de uso más prolongados.
-    .h4 Almacén en leasing
-    p.mb-4 El leasing es otra clase de arrendamiento en el que se alquila el inmueble para terminar comprándolo al final del contrato por un valor que se estipula por ambas partes al momento de firmarlo.
+    p.mb-4(data-aos="fade-right") Es el más tradicional de todos, pero ha venido decayendo frente a otras opciones más rentables en cuanto a explotación del inmueble, puesto que implica hacer parte del negocio el complejo físico y el terreno, asumiendo gastos que no necesariamente están relacionados con la actividad económica de la compañía.
+    .h4(data-aos="fade-left") Almacén alquilado y renting
+    p.mb-4(data-aos="fade-right") Estas dos son las opciones más utilizadas porque no necesitan de una inversión inicial y sus costos varían en relación con las necesidades del negocio. El renting por su parte, asume servicios de mantenimiento y contempla tiempos de uso más prolongados.
+    .h4(data-aos="fade-left") Almacén en leasing
+    p.mb-4(data-aos="fade-right") El leasing es otra clase de arrendamiento en el que se alquila el inmueble para terminar comprándolo al final del contrato por un valor que se estipula por ambas partes al momento de firmarlo.
 
     .row.justify-content-center.mb-0
       .col-lg-12.align-self-center(data-aos="fade-right")

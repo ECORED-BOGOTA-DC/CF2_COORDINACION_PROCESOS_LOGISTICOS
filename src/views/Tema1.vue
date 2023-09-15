@@ -2,13 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Gestión de almacenes - conceptos generales
   
-    p La gestión de almacenes es el proceso de la función logística que recibe, almacena, controla y mueve las diferentes mercancías dentro del almacén; permite controlar unitariamente los productos y ubicarlos correctamente para reducir al máximo las operaciones de manutención, los errores y el tiempo de dedicación. En la práctica es el conjunto de procesos que optimizan la logística, permitiendo tener la información confiable y oportuna, maximizando el tiempo de respuesta mediante la mejora continua de las técnicas de operaciones de manipulación, almacenamiento y transporte de mercadería, rapidez en entregas y con ello reducción de costos.
-    p.mb-5 Por ende, teniendo en cuenta el concepto de Flamarique (2019), los procesos necesarios para llevar la gestión de almacenamiento se soportan en 5 características que se presentan a continuación:
+    p(data-aos="fade-right") La gestión de almacenes es el proceso de la función logística que recibe, almacena, controla y mueve las diferentes mercancías dentro del almacén; permite controlar unitariamente los productos y ubicarlos correctamente para reducir al máximo las operaciones de manutención, los errores y el tiempo de dedicación. En la práctica es el conjunto de procesos que optimizan la logística, permitiendo tener la información confiable y oportuna, maximizando el tiempo de respuesta mediante la mejora continua de las técnicas de operaciones de manipulación, almacenamiento y transporte de mercadería, rapidez en entregas y con ello reducción de costos.
+    p.mb-5(data-aos="fade-right") Por ende, teniendo en cuenta el concepto de Flamarique (2019), los procesos necesarios para llevar la gestión de almacenamiento se soportan en 5 características que se presentan a continuación:
   
     .row.justify-content-center
       .col-lg-12.align-self-center(data-aos="fade-right")
@@ -55,14 +55,14 @@
             .p-4
               p #[strong Flexibilidad de la ubicación:] se han de evitar las ubicaciones vacías para evitar incurrir en un costo innecesario. Al reducir las ubicaciones vacías, se consigue aprovechar mejor el espacio, a la vez que se reducen los tiempos de desplazamiento.
 
-    p.mb-4 Todo lo anterior, sumado a un buen diseño del #[em layout] del almacén debe favorecer la distribución de materiales y productos para poder localizar y obtener lo que se necesite de la forma más eficiente. Un almacén debe contar con un diseño en el que se proyecten el número de plantas, instalaciones principales, acceso a servicios, salidas de seguridad, entradas y salidas, entre otros elementos.
+    p.mb-4(data-aos="fade-right") Todo lo anterior, sumado a un buen diseño del #[em layout] del almacén debe favorecer la distribución de materiales y productos para poder localizar y obtener lo que se necesite de la forma más eficiente. Un almacén debe contar con un diseño en el que se proyecten el número de plantas, instalaciones principales, acceso a servicios, salidas de seguridad, entradas y salidas, entre otros elementos.
     
     separador
     #t_1_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 1.1 Introducción general a la gestión de almacenes
 
-    p.mb-4 El almacén es un lugar especialmente estructurado y planificado para custodiar, proteger y controlar los bienes de la empresa, mientras no sean requeridos para la administración, la producción o la venta de artículos, mercancías o servicios.
-    p.mb-5 Pueden ser recintos especialmente proyectados y construidos para dicho fin, pero en muchas ocasiones el almacenaje, su planificación y los flujos que genera, se han de adaptar a edificios o recintos diseñados para otras funciones; en otros casos, la finalidad para la que ha sido ideado el recinto donde se emplaza el almacén se ha de modificar en función del producto almacenado, ya sea de su naturaleza, de su forma o de los requerimientos que exige su conservación.
+    p.mb-4(data-aos="fade-right") El almacén es un lugar especialmente estructurado y planificado para custodiar, proteger y controlar los bienes de la empresa, mientras no sean requeridos para la administración, la producción o la venta de artículos, mercancías o servicios.
+    p.mb-5(data-aos="fade-right") Pueden ser recintos especialmente proyectados y construidos para dicho fin, pero en muchas ocasiones el almacenaje, su planificación y los flujos que genera, se han de adaptar a edificios o recintos diseñados para otras funciones; en otros casos, la finalidad para la que ha sido ideado el recinto donde se emplaza el almacén se ha de modificar en función del producto almacenado, ya sea de su naturaleza, de su forma o de los requerimientos que exige su conservación.
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta BG01" data-aos="zoom-in")
       .row(titulo="Motivos para almacenar")
@@ -121,7 +121,7 @@
     #t_1_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 1.2 Evolución de los almacenes
 
-    p.mb-5 Los almacenes avanzan con el tiempo en bloques notorios como se evidencia en la siguiente imagen:
+    p.mb-5(data-aos="fade-right") Los almacenes avanzan con el tiempo en bloques notorios como se evidencia en la siguiente imagen:
 
     .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="zoom-in")
       LineaTiempoC.color-primario
@@ -151,7 +151,7 @@
           .col-lg-9.align-self-center
             p Llega el equipo mecánico, incluyendo la implementación de cintas transportadoras y métodos para sujetar automáticamente las cargas a los pallets. Cada uno de estos métodos produjo un aumento en la eficiencia de los almacenes; generalmente, los almacenes más eficientes son los que logran albergar la mayor cantidad de producto por metro cuadrado de espacio disponible, con esto se reducen costos como los de calefacción, mantenimiento y administración.
         
-    p.mb-5 La evolución es buena pero cada sistema tiene sus cosas a tener en cuenta, por ejemplo, las pilas simples presentan dificultad porque al producirse el mayor peso sobre las existencias ubicadas en la parte más baja, puede dañar esa parte y no es fácil llegar a esas cajas sin bajar las que están sobre ella; para que lo entienda mejor, imagínese una pila de monedas en la que haya por lo menos 10 monedas una sobre otra y usted quiere quitar la de abajo sin que se caigan las otras. En este modelo también se debe tener en cuenta que la altura de cada pila tiene un límite que por lo general es de hasta 7 metros, de esta manera se puede mantener un sistema que no tenga tanto riesgo de caída por inestabilidad, por estas razones, la mayoría de las empresas comerciales invierten en algún tipo de sistemas de estanterías que reduzca el riesgo.
+    p.mb-5(data-aos="fade-right") La evolución es buena pero cada sistema tiene sus cosas a tener en cuenta, por ejemplo, las pilas simples presentan dificultad porque al producirse el mayor peso sobre las existencias ubicadas en la parte más baja, puede dañar esa parte y no es fácil llegar a esas cajas sin bajar las que están sobre ella; para que lo entienda mejor, imagínese una pila de monedas en la que haya por lo menos 10 monedas una sobre otra y usted quiere quitar la de abajo sin que se caigan las otras. En este modelo también se debe tener en cuenta que la altura de cada pila tiene un límite que por lo general es de hasta 7 metros, de esta manera se puede mantener un sistema que no tenga tanto riesgo de caída por inestabilidad, por estas razones, la mayoría de las empresas comerciales invierten en algún tipo de sistemas de estanterías que reduzca el riesgo.
     
     .row.justify-content-center.mb-4
       .col-lg-10.align-self-center
@@ -165,8 +165,8 @@
     #t_1_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 1.3 Características de los almacenes
 
-    p.mb-4 En ocasiones, la actividad económica de una empresa puede exigir de uno o varios tipos de almacenes entre los que se tienen: de materias primas, de productos semielaborados, de productos terminados, etc. Todos ellos han de estar ubicados en función de las necesidades específicas de su funcionamiento y de acuerdo con las restricciones o las posibilidades de cada localización y su entorno.
-    p.mb-5 La mejor manera de clasificar los distintos tipos de bodegas que se pueden dar en la actualidad es agrupándolas según sus características comunes:
+    p.mb-4(data-aos="fade-right") En ocasiones, la actividad económica de una empresa puede exigir de uno o varios tipos de almacenes entre los que se tienen: de materias primas, de productos semielaborados, de productos terminados, etc. Todos ellos han de estar ubicados en función de las necesidades específicas de su funcionamiento y de acuerdo con las restricciones o las posibilidades de cada localización y su entorno.
+    p.mb-5(data-aos="fade-right") La mejor manera de clasificar los distintos tipos de bodegas que se pueden dar en la actualidad es agrupándolas según sus características comunes:
 
     SlyderB.mb-5(:datos="datosSlyder" data-aos="fade-right")
 
@@ -179,7 +179,7 @@
         .cajon.color-acento-contenido.p-4.mb-4
           p.mb-0 El almacén hace parte fundamental de la cadena logística y su función general es la de regular el flujo de mercancías dentro de la red logística.
 
-    p.mb-5 Las funciones se caracterizan independientemente por la actividad a la que se dedique la empresa, como se observa en la siguiente figura, donde se puede ver un comportamiento logístico aproximado a un almacén.
+    p.mb-5(data-aos="fade-right") Las funciones se caracterizan independientemente por la actividad a la que se dedique la empresa, como se observa en la siguiente figura, donde se puede ver un comportamiento logístico aproximado a un almacén.
     
     .row.justify-content-center.mb-5
       .col-lg-12.align-self-center
@@ -190,7 +190,7 @@
           img.mb-2(src='@/assets/curso/tema1/img13.svg', alt='Estante')
           figcaption Nota. <span style="font-weight: 400">Modificado de Riveros (2015)</span>
 
-    p.mb-5 Las funciones del almacén más relevantes son la recepción de las mercancías, su almacenamiento, cuidado, control, conteo y envío; como se muestra en el siguiente video:
+    p.mb-5(data-aos="fade-right") Las funciones del almacén más relevantes son la recepción de las mercancías, su almacenamiento, cuidado, control, conteo y envío; como se muestra en el siguiente video:
 
     figure.mb-5(data-aos="zoom-in")
       .video
@@ -200,12 +200,12 @@
     #t_1_5.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 1.5 Ubicación de los almacenes
 
-    p.mb-5 Determinar la ubicación de un almacén es uno de los aspectos primordiales que hay que considerar antes de su instalación. La localización de la bodega es un factor que influye no sólo en el aspecto constructivo, sino, sobre todo, en el estratégico, y puede ser decisivo en el éxito o el fracaso del negocio; para Pérez (2017), “el estudio de la ubicación de un almacén deberá realizarse mediante el examen de cuatro factores básicos: la producción, los costos, la demanda y la competencia” (párr.2), todos estos aspectos se relacionan entre sí y por separado como se evidencia en el siguiente gráfico:
+    p.mb-5(data-aos="fade-right") Determinar la ubicación de un almacén es uno de los aspectos primordiales que hay que considerar antes de su instalación. La localización de la bodega es un factor que influye no sólo en el aspecto constructivo, sino, sobre todo, en el estratégico, y puede ser decisivo en el éxito o el fracaso del negocio; para Pérez (2017), “el estudio de la ubicación de un almacén deberá realizarse mediante el examen de cuatro factores básicos: la producción, los costos, la demanda y la competencia” (párr.2), todos estos aspectos se relacionan entre sí y por separado como se evidencia en el siguiente gráfico:
 
     figure.mb-5(data-aos="zoom-in")
       img(src='@/assets/curso/tema1/img14.svg', alt='Imagen decorativa')
 
-    p.mb-5 En una correcta distribución y comercialización de los productos con relación a la ubicación se deben tener en cuenta el análisis de los siguientes parámetros:
+    p.mb-5(data-aos="fade-right") En una correcta distribución y comercialización de los productos con relación a la ubicación se deben tener en cuenta el análisis de los siguientes parámetros:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta BG01" data-aos="zoom-in")
       .row(titulo="Características del producto")
@@ -248,7 +248,7 @@
         .cajon.color-acento-contenido.p-4.mb-4
           p.mb-0 El #[em layout] de una empresa es la distribución planimétrica de sus distintas dependencias e instalaciones y la relación de esta distribución con los distintos flujos de materiales, productos en proceso y con los desplazamientos de personas y vehículos. Es la relación de los espacios físicos con las actividades y movimientos totales de la empresa.
 
-    p.mb-4 La distribución general de una instalación debe ser acorde con un buen sistema de almacenamiento que cubra estas necesidades:
+    p.mb-4(data-aos="fade-right") La distribución general de una instalación debe ser acorde con un buen sistema de almacenamiento que cubra estas necesidades:
 
     .row.justify-content-center.mb-4
       .col-lg-8.mb-4.mb-lg-0.align-self-center

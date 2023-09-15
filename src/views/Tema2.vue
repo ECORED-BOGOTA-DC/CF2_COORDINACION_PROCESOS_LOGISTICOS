@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Naturaleza de los productos
 
-    p.mb-5 La naturaleza de los productos hace de la logística un trabajo diferenciador, casi que individualizado, un producto hace que exista un eslabón, y éste, dependiendo de su naturaleza, medidas físicas o sus propiedades, las precauciones para su manejo y el tipo de presentación, debe ser adecuado a una tipología de carga, un embalaje y una distribución; tal como se menciona a continuación.
+    p.mb-5(data-aos="fade-right") La naturaleza de los productos hace de la logística un trabajo diferenciador, casi que individualizado, un producto hace que exista un eslabón, y éste, dependiendo de su naturaleza, medidas físicas o sus propiedades, las precauciones para su manejo y el tipo de presentación, debe ser adecuado a una tipología de carga, un embalaje y una distribución; tal como se menciona a continuación.
       
     .row.justify-content-center.mb-5
       .col-xl.col-md-3.col-6.mb-xl-0.mb-4(style="padding:4px;" data-aos="fade-right")
@@ -300,10 +300,10 @@
     #t_2_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 2.1 Empaques y embalajes
 
-    p.mb-4 Los productos llegan al mundo desnudos y se deben vestir para la ocasión, cada uno de los productos debe ser defendido de muchos factores que voluntaria o involuntariamente lo atacan cada momento además de mostrarlos de manera llamativa y es por eso que se debe plantear toda una logística desde el vestido del producto hasta saber si se envía solo o acompañado, por eso es fundamental conocer los siguientes conceptos.
+    p.mb-4(data-aos="fade-right") Los productos llegan al mundo desnudos y se deben vestir para la ocasión, cada uno de los productos debe ser defendido de muchos factores que voluntaria o involuntariamente lo atacan cada momento además de mostrarlos de manera llamativa y es por eso que se debe plantear toda una logística desde el vestido del producto hasta saber si se envía solo o acompañado, por eso es fundamental conocer los siguientes conceptos.
 
     .h4.mb-5 <i class="fas fa-crosshairs fa-spin" style="color: #57DBD8; margin-left: 8px; font-size: larger" data-aos="fade-right"></i> Definiciones
-    p.mb-5 Para dar un mejor concepto de lo que se va a revisar se deben dar definiciones de los conceptos para iniciar.
+    p.mb-5(data-aos="fade-right") Para dar un mejor concepto de lo que se va a revisar se deben dar definiciones de los conceptos para iniciar.
 
     .row.justify-content-center.mb-4
       .col-lg-9
@@ -350,8 +350,8 @@
           .col-lg-10
             p.mb-0 Es aquel que puede agrupar varios empaques primarios o secundarios y tiene como finalidad facilitar la manipulación y el transporte de los productos.
 
-    .h3.mb-4 Tipos de embalaje
-    p.mb-5 El embalaje se encarga de la apropiación y conservación de la carga y se hace en varios niveles de optimización, dentro de esta optimización hay varios elementos que se deben tener en cuenta y por eso se hacen varios tipos de embalaje como se describe a continuación:
+    .h3.mb-4(data-aos="fade-left") Tipos de embalaje
+    p.mb-5(data-aos="fade-right") El embalaje se encarga de la apropiación y conservación de la carga y se hace en varios niveles de optimización, dentro de esta optimización hay varios elementos que se deben tener en cuenta y por eso se hacen varios tipos de embalaje como se describe a continuación:
     
     .row.justify-content-center
       .col-lg-10(data-aos="zoom-in")
@@ -366,7 +366,7 @@
             p Anexo. Otros tipos de embalaje
 
     .h4.mb-5 <i class="fas fa-crosshairs fa-spin" style="color: #57DBD8; margin-left: 8px; font-size: larger" data-aos="fade-right"></i> Funciones
-    p.mb-5 En general las funciones de los empaques y los embalajes están dadas por la función que se cumple con el producto y para cada uno de los productos son diferentes, a continuación, se presenta una tabla de funciones básicas basados en el conocimiento de Castellanos (2015):
+    p.mb-5(data-aos="fade-right") En general las funciones de los empaques y los embalajes están dadas por la función que se cumple con el producto y para cada uno de los productos son diferentes, a continuación, se presenta una tabla de funciones básicas basados en el conocimiento de Castellanos (2015):
 
     .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in")
       table
@@ -500,7 +500,7 @@
               p  Materiales residuales, olores, cargas incompatibles.
 
     .h4.mb-5 <i class="fas fa-crosshairs fa-spin" style="color: #57DBD8; margin-left: 8px; font-size: larger" data-aos="fade-right"></i> Materiales
-    p.mb-4 Materiales de envases, empaques y embalajes utilizados en el proceso logístico con sus ventajas y desventajas.
+    p.mb-4(data-aos="fade-right") Materiales de envases, empaques y embalajes utilizados en el proceso logístico con sus ventajas y desventajas.
 
     .titulo-sexto.color-acento-botones(data-aos="fade-right")
       h5 Tabla 1.
@@ -553,7 +553,7 @@
             td.text-center Muy frágil, sensible a la humedad y al calor.
           
     .h4.mb-5 <i class="fas fa-crosshairs fa-spin" style="color: #57DBD8; margin-left: 8px; font-size: larger" data-aos="fade-right"></i> Pictografía
-    p.mb-5 La simbología en los embalajes, algo muy importante teniendo en cuenta que la mayoría de los daños en mercancías se producen durante su transporte, especialmente cuando se realiza la carga o descarga. Estos pictogramas universales, colocados debidamente en las cajas, sirven de orientación para la perfecta manipulación de la carga, ya que no van acompañados de palabras escritas y son entendibles en cualquier parte del mundo. Además, están estandarizados según la norma ISO 780:1997.
+    p.mb-5(data-aos="fade-right") La simbología en los embalajes, algo muy importante teniendo en cuenta que la mayoría de los daños en mercancías se producen durante su transporte, especialmente cuando se realiza la carga o descarga. Estos pictogramas universales, colocados debidamente en las cajas, sirven de orientación para la perfecta manipulación de la carga, ya que no van acompañados de palabras escritas y son entendibles en cualquier parte del mundo. Además, están estandarizados según la norma ISO 780:1997.
 
     .row.justify-content-center
       .col-lg-10
@@ -569,7 +569,7 @@
               img(src='@/assets/curso/tema2/pictografia/picto2.svg', alt='Imagen decorativa')
 
     .h4.mb-5 <i class="fas fa-crosshairs fa-spin" style="color: #57DBD8; margin-left: 8px; font-size: larger" data-aos="fade-right"></i> Marcado y etiquetado
-    p.mb-5 Es el conjunto de marcas o símbolos especiales que se deben colocar a las unidades de carga tales como cajas, contenedores o barriles, para ser identificados como carga.
+    p.mb-5(data-aos="fade-right") Es el conjunto de marcas o símbolos especiales que se deben colocar a las unidades de carga tales como cajas, contenedores o barriles, para ser identificados como carga.
 
     .row.justify-content-center
       .col-lg-8(data-aos="fade-right")
@@ -601,7 +601,7 @@
               .h4 Marcas de manipulación
               p Es la información sobre el manejo y advertencias en el momento de manipular o transportar la carga, en este caso se utilizan símbolos pictóricos internacionalmente aceptados.
 
-    p.mb-4 Las cajas son parte importante en el proceso de embalaje y envío, por eso se da la necesidad de marcarlas de una forma adecuada para que integren el sistema logístico sin contratiempos. A continuación, se presentan las partes de dicha marcación:
+    p.mb-4(data-aos="fade-right") Las cajas son parte importante en el proceso de embalaje y envío, por eso se da la necesidad de marcarlas de una forma adecuada para que integren el sistema logístico sin contratiempos. A continuación, se presentan las partes de dicha marcación:
 
     .row.justify-content-center
       .col-lg-10
@@ -612,11 +612,11 @@
     #t_2_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 2.2 Unidad de carga o unitarización
 
-    p.mb-4 Según la definición de Mira & Soler (2010) una unidad de carga puede estar formada por un único bulto o por un conjunto de bultos de menores dimensiones, agrupados para formar un solo módulo, compacto e individual, que permita un fácil manejo y conservación, que incremente la seguridad de la mercancía y contribuya a una manutención eficiente, esto da pie para agrupar las mercancías en unidades de carga no solo para facilitar su manejo, sino que trabaja positivamente en la gestión de su transporte y, por tanto, en la gestión y eficiencia general del proceso logístico.
+    p.mb-4(data-aos="fade-right") Según la definición de Mira & Soler (2010) una unidad de carga puede estar formada por un único bulto o por un conjunto de bultos de menores dimensiones, agrupados para formar un solo módulo, compacto e individual, que permita un fácil manejo y conservación, que incremente la seguridad de la mercancía y contribuya a una manutención eficiente, esto da pie para agrupar las mercancías en unidades de carga no solo para facilitar su manejo, sino que trabaja positivamente en la gestión de su transporte y, por tanto, en la gestión y eficiencia general del proceso logístico.
 
     .h4.mb-5 <i class="fas fa-crosshairs fa-spin" style="color: #57DBD8; margin-left: 8px; font-size: larger" data-aos="fade-right"></i> Cualidades de las unidades de carga
     
-    p.mb-4 Conviene precisar que la configuración y las características físicas de los elementos que componen la unidad de carga han de conseguir dotarla de dos cualidades fundamentales:
+    p.mb-4(data-aos="fade-right") Conviene precisar que la configuración y las características físicas de los elementos que componen la unidad de carga han de conseguir dotarla de dos cualidades fundamentales:
 
     .row.justify-content-center
       .col-lg-10
@@ -637,7 +637,7 @@
             p Para lo que es preciso apilar correctamente los productos o las unidades que contiene. La estabilidad se puede incrementar sujetando entre sí las unidades mediante cinta adhesiva o flejes de metal, goma o plástico, o el conjunto de ellas sobre un palé u otro tipo de plataforma.
 
     .h4.mb-5 <i class="fas fa-crosshairs fa-spin" style="color: #57DBD8; margin-left: 8px; font-size: larger" data-aos="fade-right"></i> Estibas o pallets
-    p.mb-4 Plataforma construida de 1 o 2 pisos unidos por listones sobre los que se agrupan las mercancías. Es un elemento logístico clave en la cadena de suministro, ya que, al terminar el proceso de producción, las mercancías se agrupan frecuentemente mediante procedimientos manuales o estandarizados.
+    p.mb-4(data-aos="fade-right") Plataforma construida de 1 o 2 pisos unidos por listones sobre los que se agrupan las mercancías. Es un elemento logístico clave en la cadena de suministro, ya que, al terminar el proceso de producción, las mercancías se agrupan frecuentemente mediante procedimientos manuales o estandarizados.
 
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -647,7 +647,7 @@
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img21.svg', alt='Imagen decorativa')
 
-    p.mb-4 Los dos tipos de pallets más utilizados actualmente son los llamados #[strong europeos (1200x800mm)] y #[strong americano (1200x1000mm)] que deben su nombre a las zonas en las que predomina cada uno. Ambas dimensiones se encuentran entre las seis medidas estandarizadas que recoge la Organización Internacional para la Estandarización (ISO) para el manejo internacional de mercancías.
+    p.mb-4(data-aos="fade-right") Los dos tipos de pallets más utilizados actualmente son los llamados #[strong europeos (1200x800mm)] y #[strong americano (1200x1000mm)] que deben su nombre a las zonas en las que predomina cada uno. Ambas dimensiones se encuentran entre las seis medidas estandarizadas que recoge la Organización Internacional para la Estandarización (ISO) para el manejo internacional de mercancías.
 
 </template>
 

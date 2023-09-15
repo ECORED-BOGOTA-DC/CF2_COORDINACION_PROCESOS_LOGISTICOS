@@ -3,13 +3,13 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal
+    .titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
     
-    p.mb-5 A través del siguiente video se da la bienvenida al componente formativo en gestión por medio de una voz amiga que le recuerda que somos personas quienes estamos detrás de cada pantalla.
+    p.mb-5(data-aos="fade-right") A través del siguiente video se da la bienvenida al componente formativo en gestión por medio de una voz amiga que le recuerda que somos personas quienes estamos detrás de cada pantalla.
     
     figure.mb-5(data-aos="zoom-in")
       .video
