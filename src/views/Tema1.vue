@@ -168,7 +168,8 @@
     p.mb-4(data-aos="fade-right") En ocasiones, la actividad económica de una empresa puede exigir de uno o varios tipos de almacenes entre los que se tienen: de materias primas, de productos semielaborados, de productos terminados, etc. Todos ellos han de estar ubicados en función de las necesidades específicas de su funcionamiento y de acuerdo con las restricciones o las posibilidades de cada localización y su entorno.
     p.mb-5(data-aos="fade-right") La mejor manera de clasificar los distintos tipos de bodegas que se pueden dar en la actualidad es agrupándolas según sus características comunes:
 
-    SlyderB.mb-5(:datos="datosSlyder" data-aos="fade-right")
+
+    SlyderB(:datos="datosSlyder" data-aos="fade-right")
 
     separador
     #t_1_4.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -287,7 +288,7 @@
 <script>
 export default {
   name: 'Tema1',
-  components: {},
+  components: { },
   data: () => ({
     // variables de vue
     datosSlyder: [
@@ -296,33 +297,28 @@ export default {
         texto:
           ' Se pueden encontrar bodegas especializadas en bobinas, productos inflamables, perfiles, pequeño material, recambios, productos perecederos e incluso bodegas que son de uso general, entre otras posibilidades.',
         imagen: require('@/assets/curso/tema1/img8.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo: 'El edificio',
         texto:
           ' También puede ser un criterio de clasificación y así se habla de bodegas al aire libre, naves, sótanos, bodegas de gran altura o depósitos, cámaras frigoríficas, bodegas autoportantes (las estanterías conforman el armazón del propio edificio), etc.',
         imagen: require('@/assets/curso/tema1/img9.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo: 'Dependiendo del flujo de materiales',
         texto:
           ' Las instalaciones pueden agruparse en aquellas destinadas a materias primas, componentes o productos semielaborados, productos acabados, bodegas intermedias, de depósito, para distribución, etc.',
         imagen: require('@/assets/curso/tema1/img10.svg'),
-        //leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo: 'En cuanto a su localización',
         texto: ' Se habla de bodegas centrales, regionales y de tránsito.',
         imagen: require('@/assets/curso/tema1/img11.svg'),
-        //leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo: 'En cuanto a su mecanización',
         texto: 'Pueden ser manuales, convencionales o automatizadas.',
         imagen: require('@/assets/curso/tema1/img12.svg'),
-        //leyendaImagen: 'Leyenda de la imagen',
       },
     ],
   }),

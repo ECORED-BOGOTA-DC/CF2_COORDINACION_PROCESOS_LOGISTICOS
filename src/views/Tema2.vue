@@ -11,7 +11,7 @@
       
     .row.justify-content-center.mb-5
       .col-xl.col-md-3.col-6.mb-xl-0.mb-4(style="padding:4px;" data-aos="fade-right")
-        .arrow-crd
+        .arrow-crd.h-100
           .arrow-crd__header
             p 1
           .arrow-crd__body
@@ -19,7 +19,7 @@
             figure
               img(src='@/assets/curso/tema2/icon2.svg',alt='Imagen decorativa')
       .col-xl.col-md-3.col-6.mb-xl-0.mb-4(style="padding:4px;" data-aos="fade-left")
-        .arrow-crd.arrow-crd_oddCl
+        .arrow-crd.arrow-crd_oddCl.h-100
           .arrow-crd__header--azul
             p 2
           .arrow-crd__body
@@ -27,7 +27,7 @@
             figure
               img(src='@/assets/curso/tema2/icon1.svg',alt='Imagen decorativa')
       .col-xl.col-md-3.col-6.mb-xl-0.mb-4(style="padding:4px;" data-aos="fade-right")
-        .arrow-crd
+        .arrow-crd.h-100
           .arrow-crd__header
             p 3
           .arrow-crd__body(style="padding-left: 0; padding-right: 0;")
@@ -35,7 +35,7 @@
             figure
               img(src='@/assets/curso/tema2/icon2.svg',alt='Imagen decorativa' style="width:100px").mx-auto
       .col-xl.col-md-3.col-6.mb-xl-0.mb-4(style="padding:4px;" data-aos="flip-up")
-        .arrow-crd.arrow-crd_oddCl
+        .arrow-crd.arrow-crd_oddCl.h-100
           .arrow-crd__header--azul
             p 4
           .arrow-crd__body
@@ -43,7 +43,7 @@
             figure
               img(src='@/assets/curso/tema2/icon1.svg',alt='Imagen decorativa')
       .col-xl.col-md-3.col-6.mb-md-0.mb-4(style="padding:4px;" data-aos="flip-up")
-        .arrow-crd
+        .arrow-crd.h-100
           .arrow-crd__header
             p 5
           .arrow-crd__body
@@ -51,7 +51,7 @@
             figure
               img(src='@/assets/curso/tema2/icon2.svg',alt='Imagen decorativa')
       .col-xl.col-md-3.col-6.mb-md-0.mb-4(style="padding:4px;" data-aos="flip-up")
-        .arrow-crd.arrow-crd_oddCl
+        .arrow-crd.arrow-crd_oddCl.h-100
           .arrow-crd__header--azul
             p 6
           .arrow-crd__body
@@ -59,7 +59,7 @@
             figure
               img(src='@/assets/curso/tema2/icon1.svg',alt='Imagen decorativa')
       .col-xl.col-md-3.col-6.mb-md-0.mb-4(style="padding:4px;" data-aos="fade-right")
-        .arrow-crd
+        .arrow-crd.h-100
           .arrow-crd__header
             p 7
           .arrow-crd__body
@@ -67,7 +67,7 @@
             figure
               img(src='@/assets/curso/tema2/icon2.svg',alt='Imagen decorativa')
       .col-xl.col-md-3.col-6(style="padding:4px;" data-aos="fade-left")
-        .arrow-crd
+        .arrow-crd.h-100
           .arrow-crd__header--azul
             p 8
           .arrow-crd__body

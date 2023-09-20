@@ -25,7 +25,7 @@
             p.mb-0 Separación, alistamiento y despacho.
           li(style="margin-bottom: 2px")
             i.fas.fa-check-circle(style="color: #FE7062;")
-            p.mb-0 Cross Docking.
+            p.mb-0 #[em Cross Docking].
 
     .row.justify-content-center.mb-5
       .col-lg-12

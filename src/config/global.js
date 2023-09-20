@@ -415,7 +415,7 @@ export default {
         },
         {
           nombre: 'Gloria Lida Alzáte Suarez',
-          cargo: 'Adecuación instruccional - 2023',
+          cargo: 'Adecuación instruccional',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
