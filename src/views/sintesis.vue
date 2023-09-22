@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Síntesis que se hace sobre los temas abordados en este componente formativo como lo son: los tipos de empaque, tipos de almacenes y los diferentes procesos como la planificación, la recepción, el almacenaje y movimientos de las mercancías.")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Síntesis que se hace sobre los temas abordados en este componente formativo como lo son: los tipos de empaque, tipos de almacenes y los diferentes procesos como la planificación, la recepción, el almacenaje y movimientos de las mercancías")
       .col-auto(data-aos="fade-left")
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
