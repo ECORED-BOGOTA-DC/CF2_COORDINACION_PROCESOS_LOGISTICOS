@@ -159,7 +159,7 @@
           h5 Figura 1.
           span Estante
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img7.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema1/img7.svg', alt='Ilustración de la estructura de un estante.')
 
     separador
     #t_1_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -188,7 +188,7 @@
           h5 Figura 2.
           span Funciones logísticas del almacén
         figure(data-aos="zoom-in")
-          img.mb-2(src='@/assets/curso/tema1/img13.svg', alt='Estante')
+          img.mb-2(src='@/assets/curso/tema1/img13.svg', alt='Imagen que expone las funciones logísticas de un almacén que se describen posterior a la imagen.')
           figcaption Nota. <span style="font-weight: 400">Modificado de Riveros (2015)</span>
 
     p.mb-5(data-aos="fade-right") Las funciones del almacén más relevantes son la recepción de las mercancías, su almacenamiento, cuidado, control, conteo y envío; como se muestra en el siguiente video:
@@ -280,7 +280,7 @@
       h5 Figura 3.
       span #[em Layout] almacén
     figure(data-aos="zoom-in")
-      img.mb-1(src='@/assets/curso/tema1/img18.svg',  alt='<em>Layout</em> almacén')
+      img.mb-1(src='@/assets/curso/tema1/img18.svg',  alt='Muestra la distribución física de un almacén, esto es:<br>1. Zona de carga / descarga<br>2. Verificación, control y despacho.<br>3. Almacén.<br>4. Zona alistamiento.<br>5. Zona cross docking.<br>6. Oficina de administración.<br>7. Puerta recibo 7 despacho.')
       figcaption(style='background-color: #f2f6fe;') Nota. Modificado de Castellanos (2015)
 
 </template>
@@ -288,7 +288,6 @@
 <script>
 export default {
   name: 'Tema1',
-  components: { },
   data: () => ({
     // variables de vue
     datosSlyder: [

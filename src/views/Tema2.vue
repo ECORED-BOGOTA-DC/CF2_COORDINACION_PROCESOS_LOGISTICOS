@@ -327,7 +327,7 @@
           h5 Figura 4.
           span Empaque primario
         figure(data-aos="zoom-in")
-          img.mb-4(src='@/assets/curso/tema2/img15.svg',alt='Imagen decorativa',style='max-width: 350px;')
+          img.mb-4(src='@/assets/curso/tema2/img15.svg', alt='Empaque primario. Ilustra envases para productos.', style='max-width: 350px;')
         .row.justify-content-center
           .col-lg-10
             p.mb-0 Es aquel recipiente o envase que contiene el producto.
@@ -336,7 +336,7 @@
           h5 Figura 5.
           span Empaque secundario
         figure(data-aos="zoom-in")
-          img.mb-4(src='@/assets/curso/tema2/img16.svg', alt='Imagen decorativa', style='max-width: 350px;')
+          img.mb-4(src='@/assets/curso/tema2/img16.svg', alt='Empaque secundario. Ilustra empaque cuadrado como de cartón y su definición esta luego de la imagen', style='max-width: 350px;')
         .row.justify-content-center
           .col-lg-10
             p.mb-0 Es aquel que contiene al empaque primario y tiene como finalidad brindarle protección, servir como medio de presentación y facilitar la manipulación del producto para su aprovisionamiento en los estantes o anaqueles en el punto de venta.
@@ -345,7 +345,7 @@
           h5 Figura 6.
           span Empaque terciario
         figure(data-aos="zoom-in")
-          img.mb-4(src='@/assets/curso/tema2/img17.svg', alt='Imagen decorativa', style='max-width: 350px;')
+          img.mb-4(src='@/assets/curso/tema2/img17.svg', alt='Empaque terciario, se gráfica una caja de cartón que a su vez tiene divisiones en este caso de seis espacios donde en cada uno de ellos hay un producto.', style='max-width: 350px;')
         .row.justify-content-center
           .col-lg-10
             p.mb-0 Es aquel que puede agrupar varios empaques primarios o secundarios y tiene como finalidad facilitar la manipulación y el transporte de los productos.
@@ -368,7 +368,10 @@
     .h4.mb-5 <i class="fas fa-crosshairs fa-spin" style="color: #57DBD8; margin-left: 8px; font-size: larger" data-aos="fade-right"></i> Funciones
     p.mb-5(data-aos="fade-right") En general las funciones de los empaques y los embalajes están dadas por la función que se cumple con el producto y para cada uno de los productos son diferentes, a continuación, se presenta una tabla de funciones básicas basados en el conocimiento de Castellanos (2015):
 
-    .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in")
+    .titulo-sexto.color-acento-botones(data-aos="fade-right")
+      h5 Tabla 1.
+      span Funciones básicas
+    .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in", alt="Se muestran los diferentes equipos que se utilizan para la separaci{on de resíduos y los elementos a utilizar.")
       table
         caption Nota. Modificado de Castellanos (2015)
         thead
@@ -379,13 +382,13 @@
           tr
             th.h3 Contener
             td 
-              |Separa el producto del entorno.
+              | Separa el producto del entorno.
               br
               br
-              |Fija el producto a un volumen determinado.
+              | Fija el producto a un volumen determinado.
               br
               br
-              |Contiene cualquier estado de la materia del producto, sólido, líquido o gaseoso.
+              | Contiene cualquier estado de la materia del producto, sólido, líquido o gaseoso.
           tr
             th.h3 Proteger
             td 
@@ -503,9 +506,9 @@
     p.mb-4(data-aos="fade-right") Materiales de envases, empaques y embalajes utilizados en el proceso logístico con sus ventajas y desventajas.
 
     .titulo-sexto.color-acento-botones(data-aos="fade-right")
-      h5 Tabla 1.
+      h5 Tabla 2.
       span Clasificación de los productos 
-    .tabla-b.color-acento-contenido.mb-5(data-aos="zoom-in")
+    .tabla-b.color-acento-contenido.mb-5(data-aos="zoom-in", alt="Se muestran los diferentes equipos que se utilizan para la separaci{on de resíduos y los elementos a utilizar.")
       table
         thead
           tr.text-center
@@ -563,10 +566,10 @@
         .row.justify-content-center
           .col-lg-6(data-aos="fade-right")
             figure.mb-5
-              img(src='@/assets/curso/tema2/pictografia/picto1.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema2/pictografia/picto1.svg', alt='Ilustra de manera gráfica un pictograma que contiene instrucciones básicas y especiales y lo que cada una de estas incluye se describe luego de la figura.')
           .col-lg-6(data-aos="fade-left")
             figure.mb-5
-              img(src='@/assets/curso/tema2/pictografia/picto2.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema2/pictografia/picto2.svg', alt='Ilustra de manera gráfica un pictograma que contiene instrucciones básicas y especiales y lo que cada una de estas incluye se describe luego de la figura.')
 
     .h4.mb-5 <i class="fas fa-crosshairs fa-spin" style="color: #57DBD8; margin-left: 8px; font-size: larger" data-aos="fade-right"></i> Marcado y etiquetado
     p.mb-5(data-aos="fade-right") Es el conjunto de marcas o símbolos especiales que se deben colocar a las unidades de carga tales como cajas, contenedores o barriles, para ser identificados como carga.
@@ -606,7 +609,7 @@
     .row.justify-content-center
       .col-lg-10
         figure.mb-5(data-aos="zoom-in")
-          img(src='@/assets/curso/tema2/img18.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema2/img18.svg', alt='Imagen que muestra los elementos a incluir en un marcado de cajas, estos son:<br>1. número de bultos y tamaño de caja.<br>2. Destinatario, destino y número de orden.<br>3. Punto de entrada.<br>4. País de origen.<br>5. Indicación de peso.<br>6. Marca del despachador.<br>7. Pictogramas de manejo.')
     
     separador
     #t_2_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -645,7 +648,7 @@
           h5 Figura 8.
           span Estiba
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema2/img21.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema2/img21.svg', alt='Muestra la forma de las estibas.')
 
     p.mb-4(data-aos="fade-right") Los dos tipos de pallets más utilizados actualmente son los llamados #[strong europeos (1200x800mm)] y #[strong americano (1200x1000mm)] que deben su nombre a las zonas en las que predomina cada uno. Ambas dimensiones se encuentran entre las seis medidas estandarizadas que recoge la Organización Internacional para la Estandarización (ISO) para el manejo internacional de mercancías.
 

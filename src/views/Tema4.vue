@@ -124,7 +124,7 @@
     .row.justify-content-center.mb-4
       .col-lg-8.col-sm-10(data-aos="zoom-in")
         figure.mb-4
-          img( src='@/assets/curso/tema4/img7.svg', alt='Imagen decorativa' )
+          img( src='@/assets/curso/tema4/img7.svg', alt='Imagen que muestra a través de un mapa de Tic la gestión de un almacén, en cuanto a Tic se refiere y sus definiciones se describen posterior a la imagen.' )
 
     .row.mb-5.justify-content-center.mb-4
       .col-lg-6.col-sm-10

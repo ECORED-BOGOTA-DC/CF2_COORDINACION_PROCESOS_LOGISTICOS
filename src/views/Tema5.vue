@@ -33,7 +33,7 @@
           h5 Figura 9.
           span Subprocesos de almacenamiento
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema5/img2.svg', alt='Imagen decorativa', style='width:500px;').mx-auto
+          img(src='@/assets/curso/tema5/img2.svg', alt='Subprocesos de almacenamiento, dentro de los que se encuentran: recepción, custodia, picking, despachos.', style='width:500px;').mx-auto
 
     separador
     #t_5_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -48,7 +48,7 @@
           h5 Figura 10.
           span Componentes de la logística interna
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema5/img3.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema5/img3.svg', alt='Figura 10. Expone los componentes de la logística interna que son:<br>PCP<br>Trabajo en proceso<br>Procesamiento de pedidos<br>Transportes internos<br>Traslado<br>Tecnología de la información<br>Atención al cliente<br>Abastecimiento<br>Gestión de estoques<br>Almacenaje<br>Picking/Packing embalaje<br>Recibimiento<br>PCM')
 
     separador
     #t_5_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -65,7 +65,7 @@
             h5 Figura 11.
             span Recepción e ingreso en los muelles
           figure
-            img(src='@/assets/curso/tema5/img4.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/tema5/img4.svg', alt='Muestra de manera ilustrativa la estructura física y los elementos que componen el muelle externo, muelle interno y muelle en tierra.')
         .col-lg-11.mb-4
           p La zona donde se producen estos movimientos debe ser fácilmente accesible para los vehículos, manteniendo un equilibrio en los movimientos de carga y descarga.
           p En un CEDI, el diseño de los muelles debe responder a decisiones sobre:
@@ -123,7 +123,7 @@
           h5 Figura 12.
           span Cubicaje y volumetría
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema5/img5.svg', alt='Imagen decorativa', style='width:750px;').mx-auto
+          img(src='@/assets/curso/tema5/img5.svg', alt='Ilustración gráfica del cubicaje y la volumetría que busca un ahorro promedio superior al 15%.', style='width:750px;').mx-auto
 
     p.mb-5(data-aos="fade-right") Todas las unidades de carga (incluyendo el producto embalado y unitarizado) tienen determinado su peso y volumen, esta relación la obtenemos de dividir el volumen (cubicaje) de la carga por su peso bruto.
 
@@ -248,7 +248,7 @@
       h5 Figura 13.
       span Código de colores para la separación de residuos
     figure(data-aos="zoom-in" style='margin-bottom:90px;')
-      img(src='@/assets/curso/tema5/img8.svg', alt='Imagen decorativa').mx-auto
+      img(src='@/assets/curso/tema5/img8.svg', alt='Imagen que muestra el código de colores parala separación de residuos, esto es:<br>Rojo: residuos peligrosos<br>Café: residuos metálicos como las latas y los metales.<br>Blanco: residuos de vidrio<br>Azul: residuos plásticos<br>Gris: residuos de papel y cartón<br>Verde: residuos ordinarios e inertes<br>Amarillo: residuos biodegradables').mx-auto
     
     .row.justify-content-center
       .col-lg-10(data-aos="fade-right")
