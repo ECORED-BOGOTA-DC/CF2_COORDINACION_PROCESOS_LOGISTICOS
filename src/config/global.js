@@ -278,9 +278,7 @@ export default {
     },
     {
       referencia:
-        'Revista Stock Logistic. (2019). La automatización en el sector logístico.',
-      link:
-        'https://www.stocklogistic.com/la-automatizacion-en-el-sector-logistico/',
+        'Revista Stock Logistic. (2019). La automatización en el sector logístico. Stock Logistic.',
     },
     {
       referencia:
@@ -334,17 +332,17 @@ export default {
         'es el proceso de planificación, implementación y control del flujo y almacenamiento eficiente y económico de la materia prima, productos semi - terminados y acabados, así como la información asociada.',
     },
     {
-      termino: 'Just in time',
+      termino: '<i>Just in time</i>',
       significado:
         'entrega de insumos desde el proveedor directamente a los procesos productivos en el preciso momento preciso en que se los necesitan, obviando almacenamiento en planta.',
     },
     {
-      termino: 'Packing',
+      termino: '<i>Packing</i>',
       significado:
         'es el proceso de alistamiento y preparación de la carga referente a empaque y embalaje necesario para la expedición.',
     },
     {
-      termino: 'Picking',
+      termino: '<i>Picking</i>',
       significado:
         'es el proceso de recogida de material extrayendo unidades o conjuntos empaquetados de una unidad de empaquetado superior que contiene más unidades que las extraídas.',
     },

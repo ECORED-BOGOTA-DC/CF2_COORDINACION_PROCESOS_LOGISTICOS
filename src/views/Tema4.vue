@@ -13,7 +13,7 @@
     #t_4_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 4.1 Talento humano
 
-    p.mb-4(data-aos="fade-right") La mayor parte de las empresas o industrias de tamaño grande o mediano realizan una actividad de almacenaje, pero cada empresa es distinta por lo que no hay uniformidad en el lugar en el que están ubicados los puestos relacionados con el almacenamiento en la organización de la empresa. Las funciones de cada puesto varían en función de las empresas; a pesar de esto hay determinados “puestos tipo” en el almacén que normalmente cuentan con unas funciones básicas comunes como se muestra a continuación:
+    p.mb-4(data-aos="fade-right") La mayor parte de las empresas o industrias de tamaño grande o mediano realizan una actividad de almacenaje, pero cada empresa es distinta, por lo que no hay uniformidad en el lugar en el que están ubicados los puestos relacionados con el almacenamiento en la organización de la empresa. Las funciones de cada puesto varían en función de las empresas; a pesar de esto hay determinados “puestos” en el almacén que normalmente cuentan con unas funciones básicas comunes, como se muestra a continuación:
 
     .row.justify-content-center.mb-4
       TabsA.color-acento-contenido.mb-0(data-aos="zoom-in")
@@ -64,7 +64,7 @@
                 img(src='@/assets/curso/tema4/avt6.svg', alt='Imagen decorativa', style='width:124px;').mx-auto
             .col-lg-8
               .h4 Auxiliar de almacén / repartidor / reponedor / carretillero
-              p Estos puestos se encargan de las mercancías una vez recepcionadas y antes de ser expedidas: las transportan y ubican, las distribuyen, las recuentan, las clasifican, etc
+              p Estos puestos se encargan de las mercancías una vez recepcionadas y antes de ser expedidas: las transportan y ubican, las distribuyen, las recuentan, las clasifican, etc.
     
     separador
     #t_4_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -116,13 +116,16 @@
             i.fas.fa-check-circle(style="color: #FE7062;")
             p.mb-0 Proceso de implementación largo, costoso y complejo, además cuando es mal instalado puede causar estragos operacionales y económicos.
 
-    p.mb-5(data-aos="fade-right") Las TIC son identificadas como transversales a los procesos de la gestión de almacenes desde su proceso de recepción y control hasta el despacho, contribuyendo a funciones de identificación y trazabilidad como el código de barras y el RFID. Por otro lado, existen algunas TIC que son específicas de procesos como el picking to light y voice, el cual se aplica al proceso de preparación de pedido. Para ser más específico se presenta el siguiente recurso que debe explorar en cada uno de los conceptos que destacan por qué las empresas deben estar apoyadas en las TIC:
+    p.mb-5(data-aos="fade-right") Las TIC son identificadas como transversales a los procesos de la gestión de almacenes desde su proceso de recepción y control hasta el despacho, contribuyendo a funciones de identificación y trazabilidad como el código de barras y el RFID. Por otro lado, existen algunas TIC que son específicas de procesos como el <i>picking to light y voice</i>, el cual se aplica al proceso de preparación de pedido. Para ser más específico se presenta el siguiente recurso que debe explorar en cada uno de los conceptos que destacan por qué las empresas deben estar apoyadas en las TIC:
     
-    .titulo-quinto.color-acento-contenido(data-aos="fade-right")
-      h4 Mapa de TIC en la gestión de almacenes
+    //- .titulo-quinto.color-acento-contenido(data-aos="fade-right")
+    //-   h4 Mapa de TIC en la gestión de almacenes
 
     .row.justify-content-center.mb-4
       .col-lg-8.col-sm-10(data-aos="zoom-in")
+        .titulo-sexto.color-acento-botones(data-aos="fade-right")
+          h5 Figura 10.
+          span Mapa de TIC en la gestión de almacenes
         figure.mb-4
           img( src='@/assets/curso/tema4/img7.svg', alt='Imagen que muestra a través de un mapa de Tic la gestión de un almacén, en cuanto a Tic se refiere y sus definiciones se describen posterior a la imagen.' )
 
@@ -131,11 +134,11 @@
         LineaTiempoD.color-acento-contenido.col-sm-10(data-aos="zoom-in")
           p.text-small(numero="a" titulo="WMS (<em>Warehouse Management System</em>)") Sistema de información que ayuda en la administración del flujo del producto e información dentro del proceso de almacenamiento, a través de funciones tales como: a) recepción; b) almacenamiento; c) administración de inventarios; d) procesamiento de órdenes y cobros; y e) preparación de pedidos.
           p.text-small(numero="b" titulo="LMS (<em>Labor Management System</em>)") Sistema de control de las actividades de los operadores del almacén, por lo cual se convierte en un complemento para el WMS. Una ventaja generada por su utilización es el aumento casi inmediato de la productividad del almacén casi al 100%, ya que se logra el mejoramiento del desempeño de los trabajadores y el aprovechamiento de los recursos en el almacén, a través del control y seguimiento sobre estos. La principal desventaja para que una empresa lo implemente como práctica para mejorar las operaciones del almacén, son las modificaciones necesarias a la estructura operacional y las altas inversiones que significan su puesta en marcha. Los sistemas LMS en su mayoría traen incluidas buenas prácticas para la realización de tareas en el almacén e indicadores para medir su rendimiento.
-          p.text-small(numero="c" titulo="<em>Picking To Voice y Picking To Light</em>") Sistemas de señalización sin papeles, que se basan en redes luminosas y sistemas de voz. El Pick to Light se compone de un conjunto de luces que indican al operario las ubicaciones y las cantidades a recoger de los productos y suelen tener conexión con el sistema de inventarios para que se actualice en tiempo real una vez realizada la operación. En el Pick to Voice, el operario del almacén lleva un equipo de comunicación que permite recibir y enviar mensajes acerca de las operaciones de recogida de productos a realizar.
+          p.text-small(numero="c" titulo="<em>Picking To Voice y Picking To Light</em>") Sistemas de señalización sin papeles, que se basan en redes luminosas y sistemas de voz. El <i>Pick to Light</i> se compone de un conjunto de luces que indican al operario las ubicaciones y las cantidades a recoger de los productos y suelen tener conexión con el sistema de inventarios para que se actualice en tiempo real una vez realizada la operación. En el <i>Pick to Voice</i>, el operario del almacén lleva un equipo de comunicación que permite recibir y enviar mensajes acerca de las operaciones de recogida de productos a realizar.
           p.text-small(numero="d" titulo="YMS (<em>Yard Management System</em>)") Sistema de administración de patios que permite controlar los muelles de recepción y despacho, y rastrear y seguir el movimiento de los trailers a través de tecnología de localización en tiempo real.
           p.text-small(numero="e" titulo="Código de Barras") Tecnología de codificación que permite capturar información relacionada con los números de identificación de artículos, unidades logísticas y localizaciones de manera automática e inequívoca en cualquier punto de la red de valor. Se alcanza una eficiencia considerable cuando se maneja un solo código del producto, a través de la cadena de suministro.
-          p.text-small(numero="f" titulo="SCE (<em>Supply Chain Execution</em>)") Es una tecnología que se enfoca a la optimización de movimiento de materiales entre el centro de distribución y los otros agentes de la cadena de suministro. Este sistema es la integración de otras herramientas de ejecución y visibilidad de la cadena de suministro, tales como: TMS (Transportación Management System), LMS y WMS, entre otros.
-          p.text-small(numero="g" titulo="RFID (<em>Radio Frequency Identification</em>)") Tecnología que usa ondas de radio para identificar productos de forma automática. Involucra el uso de etiquetas o tags que emiten señales de radio a los lectores encargados de recoger las señales. El RFID tiene gran potencial de uso, convirtiéndose en la base del EPC (Electronic Product Code) que es un estándar internacional de codificación, que identifica de manera única un producto a nivel mundial.
+          p.text-small(numero="f" titulo="SCE (<em>Supply Chain Execution</em>)") Es una tecnología que se enfoca a la optimización de movimiento de materiales entre el centro de distribución y los otros agentes de la cadena de suministro. Este sistema es la integración de otras herramientas de ejecución y visibilidad de la cadena de suministro, tales como: TMS (<i>Transport Management System</i>), LMS y WMS, entre otros.
+          p.text-small(numero="g" titulo="RFID (<em>Radio Frequency Identification</em>)") Tecnología que usa ondas de radio para identificar productos de forma automática. Involucra el uso de etiquetas o tags que emiten señales de radio a los lectores encargados de recoger las señales. El RFID tiene gran potencial de uso, convirtiéndose en la base del EPC (<i>Electronic Product Code</i>) que es un estándar internacional de codificación, que identifica de manera única un producto a nivel mundial.
 
     separador
     #t_4_4.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -195,7 +198,7 @@ export default {
       {
         titulo: 'Grúas',
         texto:
-          ' Para cargar mercancías en contenedor se emplean básicamente grúas móviles, grúas pórticos o puente grúas.',
+          ' Para cargar mercancías en contenedor se emplean básicamente grúas móviles, grúas pórtico o puente grúas.',
         imagen: require('@/assets/curso/tema4/img2.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
@@ -209,7 +212,7 @@ export default {
       {
         titulo: 'Apiladoras',
         texto:
-          ' Es el resultado de dotar a un estibador de un elemento de elevación. Los patines inferiores se introducen por debajo de las estibas, por lo que las tablas inferiores de estos deben ir siempre en el sentido de penetración y nunca en sentido transversal ya que se romperían al elevarlas. <br><br> Los apiladores son eléctricos y en el mercado se pueden encontrar tanto modelos que se manejan a pie, como otros en los que el operario va montado en ellos, ya sea de pie sobre una plataforma, o sentado.',
+          ' Es el resultado de dotar a un estibador de un elemento de elevación. Los patines inferiores se introducen por debajo de las estibas, por lo que las tablas inferiores de estos deben ir siempre en el sentido de penetración y nunca en sentido transversal, ya que se romperían al elevarlas. <br><br> Los apiladores son eléctricos y en el mercado se pueden encontrar tanto modelos que se manejan sin tener al operario subido, como otros en los que el operario va montado en ellos, ya sea de pie sobre una plataforma, o sentado.',
         imagen: require('@/assets/curso/tema4/img4.svg'),
         //leyendaImagen: 'Leyenda de la imagen',
       },
@@ -223,7 +226,7 @@ export default {
       {
         titulo: 'Montacargas',
         texto:
-          'Tienen una influencia directa sobre las soluciones de almacenaje ya que determinan la anchura mínima de los pasillos y, como consecuencia, la cantidad de estanterías que se puedan instalar y la capacidad de almacenaje. A su vez, los montacargas también inciden en la altura máxima de las estanterías, pudiendo ser mayor o menor según los casos. <br><br> Los montacargas de almacén son responsables del movimiento interno de la mercancía, desde los muelles a las ubicaciones de las estanterías, o desde las áreas de producción al almacén.',
+          'Tienen una influencia directa sobre las soluciones de almacenaje, ya que determinan la anchura mínima de los pasillos y, como consecuencia, la cantidad de estanterías que se puedan instalar y la capacidad de almacenaje. A su vez, los montacargas también inciden en la altura máxima de las estanterías, pudiendo ser mayor o menor según los casos. <br><br> Los montacargas de almacén son responsables del movimiento interno de la mercancía, desde los muelles a las ubicaciones de las estanterías, o desde las áreas de producción al almacén.',
         imagen: require('@/assets/curso/tema4/img6.svg'),
         //leyendaImagen: 'Leyenda de la imagen',
       },

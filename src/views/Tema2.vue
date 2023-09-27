@@ -169,17 +169,17 @@
                       i.fas.fa-check-circle(style="color: #FE7062;")
                       strong Mercancías refrigeradas
                     li 
-                      p Se enfrían por encima de la temperatura óptima del transporte o almacenamiento, siempre por encima del punto de congelación (1 – 8°C) por ejemplo, verduras, productos lácteos, mantequilla, flores, etc.
+                      p Se enfrían por encima de la temperatura óptima del transporte o almacenamiento, siempre por encima del punto de congelación (1 – 8 °C) por ejemplo, verduras, productos lácteos, mantequilla, flores, etc.
                     li 
                       i.fas.fa-check-circle(style="color: #FE7062;")
                       strong Mercancías congeladas y ultracongeladas
                     li 
-                      p Se enfrían por encima de la temperatura óptima del transporte o almacenamiento, siempre por debajo del punto de congelación, con el fin de preservar su integridad y cualidades. (-18°C) por ejemplo, pescado ultracongelado, helados.
+                      p Se enfrían por encima de la temperatura óptima del transporte o almacenamiento, siempre por debajo del punto de congelación, con el fin de preservar su integridad y cualidades. (-18 °C) por ejemplo, pescado ultracongelado, helados.
                     li 
                       i.fas.fa-check-circle(style="color: #FE7062;")
                       strong Mercancías calientes
                     li 
-                      p Son mercancías que necesitan un aporte calorífico para mantener sus condiciones óptimas de conservación durante su manipulación, transporte o almacenamiento alrededor de los 150°C.
+                      p Son mercancías que necesitan un aporte calorífico para mantener sus condiciones óptimas de conservación durante su manipulación, transporte o almacenamiento alrededor de los 150 °C.
 
     .row.justify-content-center
       .col.align-self-center(data-aos="fade-right")
@@ -272,7 +272,7 @@
                       i.fas.fa-check-circle(style="color: #FE7062;")
                       strong Animales vivos
                     li 
-                      p Conforme lo dice la Convención sobre el Comercio Internacional de Especies Amenazadas de Fauna y Flora Silvestres - CITES - es un acuerdo internacional concertado entre los gobiernos, cuya finalidad es velar por que el comercio internacional de especímenes de animales y plantas silvestres que no constituyan una amenaza para su supervivencia de las especies.
+                      p Conforme lo dice la Convención sobre el Comercio Internacional de Especies Amenazadas de Fauna y Flora Silvestres - CITES - es un acuerdo internacional concertado entre los gobiernos, cuya finalidad es velar porque el comercio internacional de especímenes de animales y plantas silvestres que no constituyan una amenaza para su supervivencia de las especies.
                 .col-lg-4
                   figure(style='text-align: -webkit-center')
                     img.mb-4(src='@/assets/curso/tema2/img13.svg', alt='Imagen decorativa', style='max-width: 350px;')
@@ -313,11 +313,11 @@
               p.mb-0 Ciencia y arte de presentar un producto en las mejores condiciones para su protección, venta, uso, almacenamiento y distribución. Incluye el envase primario, secundario o empaque, terciario o embalaje.
           .tarjeta.color-custom.p-4(titulo="Envase")
             .row
-              p.mb-0 Es un envoltorio que tiene contacto directo con el contenido de un producto, tiene la función de ofrecer una adecuada presentación, facilitando su manejo, transporte, almacenaje, manipulación y distribución
+              p.mb-0 Es un envoltorio que tiene contacto directo con el contenido de un producto, tiene la función de ofrecer una adecuada presentación, facilitando su manejo, transporte, almacenaje, manipulación y distribución.
           .tarjeta.color-custom.p-4(titulo="Empaque")
-            p.mb-0 Presentación comercial de la mercancía, contribuyendo a la seguridad de ésta durante sus desplazamientos y lográndola vender dándole una buena imagen visual y distinguiéndola de los productos de la competencia.
+            p.mb-0 Presentación comercial de la mercancía, contribuyendo a la seguridad de esta durante sus desplazamientos y lográndola vender, dándole una buena imagen visual y distinguiéndola de los productos de la competencia.
           .tarjeta.color-custom.p-4(titulo="Embalaje")
-            p.mb-0 Prepara la carga en la forma más adecuada para su transporte en los modos elegidos para su despacho al exterior y para las distintas operaciones a que se someta durante el viaje.
+            p.mb-0 Prepara la carga en la forma más adecuada para su transporte, en los modos elegidos para su despacho al exterior y para las distintas operaciones a que se someta durante el viaje.
 
     .h4.mb-5 <i class="fas fa-crosshairs fa-spin" style="color: #57DBD8; margin-left: 8px; font-size: larger" data-aos="fade-right"></i> Tipos de empaque
 
@@ -582,7 +582,7 @@
           .tarjeta.tarjeta--azul
             .p-4
               .h4 Marcas estándar o de expedición
-              p Contienen información sobre el importador, destino dirección, número de referencia, unidades, etc.
+              p Contienen información sobre el importador, destino, dirección, número de referencia, unidades, etc.
 
     .row.justify-content-center
       .col-lg-8(data-aos="fade-right")
@@ -608,6 +608,9 @@
 
     .row.justify-content-center
       .col-lg-10
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Figura 8.
+          span Elementos que se deben incluir en el mercado de cajas
         figure.mb-5(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img18.svg', alt='Imagen que muestra los elementos a incluir en un marcado de cajas, estos son:<br>1. número de bultos y tamaño de caja.<br>2. Destinatario, destino y número de orden.<br>3. Punto de entrada.<br>4. País de origen.<br>5. Indicación de peso.<br>6. Marca del despachador.<br>7. Pictogramas de manejo.')
     
@@ -645,7 +648,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Figura 8.
+          h5 Figura 9.
           span Estiba
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img21.svg', alt='Muestra la forma de las estibas.')

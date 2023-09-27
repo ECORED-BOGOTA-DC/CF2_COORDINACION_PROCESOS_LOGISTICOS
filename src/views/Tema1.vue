@@ -121,7 +121,7 @@
     #t_1_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 1.2 Evolución de los almacenes
 
-    p.mb-5(data-aos="fade-right") Los almacenes avanzan con el tiempo en bloques notorios como se evidencia en la siguiente imagen:
+    p.mb-5(data-aos="fade-right") Los almacenes avanzan con el tiempo en bloques notorios como se evidencia en la siguiente información:
 
     .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="zoom-in")
       LineaTiempoC.color-primario
@@ -136,7 +136,7 @@
             figure(style="text-align: -webkit-center;")
               img(src='@/assets/curso/tema1/img4.svg', alt='Imagen decorativa', style="width:250px; text-align: -webkit-center;")
           .col-lg-9.align-self-center
-            p En las décadas de los cincuenta y sesenta, con la subida de los precios aparecieron varios sistemas mecánicos para reducir aún más la utilización de la mano de obra y mejorar la circulación de los productos en el interior del almacén. Para la mayor parte de los almacenes esta función pasó a ser más operada por maquinaria que por mano de obra logrando apropiar el poder de los pallets.
+            p En las décadas de los cincuenta y sesenta, con la subida de los precios, aparecieron varios sistemas mecánicos para reducir aún más la utilización de la mano de obra y mejorar la circulación de los productos en el interior del almacén. Para la mayor parte de los almacenes esta función pasó a ser más operada por maquinaria que por mano de obra, logrando apropiar el poder de los pallets.
         .row(titulo="1970 Pila simple")
           .col-lg-3.col-6.mb-lg-0.mb-4
             figure(style="text-align: -webkit-center;")
@@ -223,7 +223,7 @@
               p.mb-0 #[strong Durabilidad:] esta característica determina cuánto más o menos próximos han de estar ubicados los almacenes de distribución respecto de los puntos de consumo.
             li(style="margin-bottom: 2px")
               i.fas.fa-check-circle(style="color: #FE7062;")
-              p.mb-0 #[strong Estabilidad intrínseca:] si el producto es muy inestable intrínsecamente, necesitará instalaciones especiales de almacenaje ya que esa condición puede afectar a la seguridad física del lugar e incluso a la salud de la población.
+              p.mb-0 #[strong Estabilidad intrínseca:] si el producto es muy inestable intrínsecamente, necesitará instalaciones especiales de almacenaje, ya que esa condición puede afectar a la seguridad física del lugar e incluso a la salud de la población.
             li(style="margin-bottom: 2px")
               i.fas.fa-check-circle(style="color: #FE7062;")
               p.mb-0 #[strong Manejabilidad:] las alternativas y facilidad que ofrece un producto para ser manejado puede suponer una característica restrictiva del número de movimientos que se puedan realizar con el artículo.

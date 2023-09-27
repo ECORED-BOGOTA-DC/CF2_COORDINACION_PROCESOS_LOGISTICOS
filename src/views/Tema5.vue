@@ -16,7 +16,7 @@
         ul.lista-ul--color.lista-ul--separador
           li(style="margin-bottom: 2px")
             i.fas.fa-check-circle(style="color: #FE7062;")
-            p.mb-0 Producción
+            p.mb-0 Producción.
           li(style="margin-bottom: 2px")
             i.fas.fa-check-circle(style="color: #FE7062;")
             p.mb-0 Recepción y almacenamiento.
@@ -30,22 +30,22 @@
     .row.justify-content-center.mb-5
       .col-lg-12
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
-          h5 Figura 9.
+          h5 Figura 11.
           span Subprocesos de almacenamiento
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema5/img2.svg', alt='Subprocesos de almacenamiento, dentro de los que se encuentran: recepción, custodia, picking, despachos.', style='width:500px;').mx-auto
+          img(src='@/assets/curso/tema5/img2.svg', alt='Subprocesos de almacenamiento, dentro de los que se encuentran: recepción, custodia, <i>picking</i>, despachos.', style='width:500px;').mx-auto
 
     separador
     #t_5_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 5.1 Producción y/o logística interna
 
-    p.mb-4(data-aos="fade-right") Son todos aquellos procesos de la cadena de suministro que tienen lugar dentro de la propia empresa, comprende entonces, actividades de logística dentro de los muros de una organización, por ejemplo, transportes internos, manejo de materiales, almacenaje y embalaje; es decir, desde que la compañía recibe la mercancía en sus instalaciones hasta que ésta sale, ya sea hacia un colaborador logístico o rumbo a su destino final.
+    p.mb-4(data-aos="fade-right") Son todos aquellos procesos de la cadena de suministro que tienen lugar dentro de la propia empresa, comprende entonces, actividades de logística dentro de los muros de una organización, por ejemplo, transportes internos, manejo de materiales, almacenaje y embalaje; es decir, desde que la compañía recibe la mercancía en sus instalaciones hasta que esta sale, ya sea hacia un colaborador logístico o rumbo a su destino final.
     p.mb-5(data-aos="fade-right") El objetivo de crear eficiencia y minimizando la subutilización dentro de la empresa como un todo, además, los abastecedores y los clientes son componentes externos en el ambiente del sistema de logística interna, una vez que pueden influir en el sistema de logística, pero no pueden controlarlo. El sistema interno se basa en condiciones internas y metas que dictan como los recursos del sistema son utilizados para buscar los mejores resultados.
 
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
-          h5 Figura 10.
+          h5 Figura 12.
           span Componentes de la logística interna
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema5/img3.svg', alt='Figura 10. Expone los componentes de la logística interna que son:<br>PCP<br>Trabajo en proceso<br>Procesamiento de pedidos<br>Transportes internos<br>Traslado<br>Tecnología de la información<br>Atención al cliente<br>Abastecimiento<br>Gestión de estoques<br>Almacenaje<br>Picking/Packing embalaje<br>Recibimiento<br>PCM')
@@ -59,10 +59,10 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta BG01" data-aos="fade-right")
       .row.justify-content-center(titulo="Muelles")
         .col-lg-11.mb-4
-          p.mb-0 Son sistemas de logística fundamentales ya que en ellos se produce la operación de carga y descarga de materias primas, mercancías y productos elaborados para cualquier industria o almacén. Estos garantizan en todo tipo de operación la protección de la mercancía. 
+          p.mb-0 Son sistemas de logística fundamentales, ya que en ellos se produce la operación de carga y descarga de materias primas, mercancías y productos elaborados para cualquier industria o almacén. Estos garantizan en todo tipo de operación la protección de la mercancía. 
         .col-lg-12.mb-5
           .titulo-sexto.color-acento-botones
-            h5 Figura 11.
+            h5 Figura 13.
             span Recepción e ingreso en los muelles
           figure
             img(src='@/assets/curso/tema5/img4.svg', alt='Muestra de manera ilustrativa la estructura física y los elementos que componen el muelle externo, muelle interno y muelle en tierra.')
@@ -78,7 +78,7 @@
               | Si los muelles están bien localizados en la relación con la estantería de bodega, para que se minimicen los recorridos al almacenar y despachar.
       .row.justify-content-center(titulo="Verificación de recepción")
         .col-lg-11
-          p La actividad fundamental en la recepción de vienes es la verificación de lo recibido, contra lo teóricamente enviado. La forma de verificar lo que va a recibirse, depende de la clase de bienes que van a ingresar, del volumen, del empaque, de su estado físico (solido, liquido, gaseoso) etc.
+          p La actividad fundamental en la recepción de bienes es la verificación de lo recibido, contra lo teóricamente enviado. La forma de verificar lo que va a recibirse, depende de la clase de bienes que van a ingresar, del volumen, del empaque, de su estado físico (sólido, líquido, gaseoso) etc.
           p Existen dos formas de verificación posibles:
           ul.lista-ul--color.lista-ul--separador
             li(style="margin-bottom: 2px")
@@ -103,7 +103,7 @@
           .col-lg-11
             p.mb-4 El almacenamiento está condicionado tridimensionalmente. Su unidad de medida son los metros cúbicos (m³), ya que es la única unidad de medida que expresa magnitud en la bodega.
             p.mb-0 El espacio de bodega destinado a los bienes en custodia tiene dos utilizaciones: espacio para bienes depositados y área de circulación. Lo ideal es maximizar el espacio para depositar los bienes y minimizar las áreas de circulación, sin ningún perjuicio de la agilidad y seguridad.
-        .row.justify-content-center(titulo="Preparación de pedidos o picking")
+        .row.justify-content-center(titulo="Preparación de pedidos o <i>picking</i>")
           .col-lg-11
             p.mb-4 Es la actividad de preparación de pedidos, consiste en la recogida y combinación de cargas no unitarias para conformar el pedido de un cliente, puede llevarse a cabo en casi cualquier tipo de almacén y se produce siempre que se necesite juntar paquetes, piezas, productos o materiales para, una vez reunidos, proceder a su traslado.
             p.mb-0 Esta actividad puede llevarse a cabo de muchas maneras: desde la más sencilla, en la que un operario recorre la instalación recopilando las unidades; a las más sofisticadas, como es, por ejemplo, la que se basa en un sistema completamente automatizado con preparación mecanizada. Cada uno de estos métodos es ideal para una o más aplicaciones.
@@ -120,7 +120,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
-          h5 Figura 12.
+          h5 Figura 14.
           span Cubicaje y volumetría
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema5/img5.svg', alt='Ilustración gráfica del cubicaje y la volumetría que busca un ahorro promedio superior al 15%.', style='width:750px;').mx-auto
@@ -137,9 +137,9 @@
 
     separador
     #t_5_5.titulo-segundo.color-acento-botones(data-aos="fade-right")
-      .h2 5.5 Cross docking
+      .h2 5.5 <i>Cross docking</i>
 
-    p.mb-4(data-aos="fade-right") Cross Docking o muelle de paso, es la recepción de los bienes enviados por un proveedor, los cuales no van a ser almacenados, sino que se reciben y deben, en un lapso no mayor de 24 horas, ser despachados a un destino final; es el movimiento de una mercancía a través del centro de distribución (o plataforma logística) desde el muelle de recibo hasta el de embarque, sin que se requiera un almacenamiento intermedio prolongado.
+    p.mb-4(data-aos="fade-right") <i>Cross docking</i> o muelle de paso, es la recepción de los bienes enviados por un proveedor, los cuales no van a ser almacenados, sino que se reciben y deben, en un lapso no mayor de 24 horas, ser despachados a un destino final; es el movimiento de una mercancía a través del centro de distribución (o plataforma logística) desde el muelle de recibo hasta el de embarque, sin que se requiera un almacenamiento intermedio prolongado.
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta BG01" data-aos="zoom-in")
       .row(titulo="Beneficios")
@@ -162,7 +162,7 @@
       .row(titulo="Formas de generarlo")
         .row.justify-content-center
           .col-lg-11
-            p.mb-4 Existen dos formas de generar un Cross docking:
+            p.mb-4 Existen dos formas de generar un <i>Cross docking</i>:
             ol.lista-ol--cuadro
               li 
                 .lista-ol--cuadro__vineta
@@ -185,8 +185,8 @@
         figure.mb-4
           img(src='@/assets/curso/tema5/img6.svg', alt='Imagen decorativa').mx-auto
         .h4 El control de la temperatura en el almacén
-        p.mb-4 Desde el punto de vista de las condiciones de almacenamiento, los productos se dividen principalmente en tres grandes categorías: almacenaje a temperatura ambiente, refrigerados a temperatura controlada, entre 2 y 8ºC, y congelados a diferentes temperaturas, habitualmente en torno a los -20ºC
-        p Desde el punto de vista de ISO (2020) se dice que se debe garantizar que, en el primer tipo, el de temperatura ambiente, los materiales se mantienen entre los 25 y 30ºC en todos los casos, que es el máximo que se establece para la gran mayoría de estos productos, pero se debe tener en cuenta el sitio geográfico desde donde se está trabajando porque hay poblaciones con temperaturas por fuera de estos rangos de temperatura.
+        p.mb-4 Desde el punto de vista de las condiciones de almacenamiento, los productos se dividen principalmente en tres grandes categorías: almacenaje a temperatura ambiente, refrigerados a temperatura controlada, entre 2 y 8 ºC, y congelados a diferentes temperaturas, habitualmente en torno a los -20 ºC
+        p Desde el punto de vista de ISO (2020) se dice que se debe garantizar que, en el primer tipo, el de temperatura ambiente, los materiales se mantienen entre los 25 y 30 ºC en todos los casos, que es el máximo que se establece para la gran mayoría de estos productos, pero se debe tener en cuenta el sitio geográfico desde donde se está trabajando porque hay poblaciones con temperaturas por fuera de estos rangos de temperatura.
       .col-lg-6.col-sm-10(data-aos="fade-left")
         figure.mb-4
             img(src='@/assets/curso/tema5/img7.svg', alt='Imagen decorativa').mx-auto
@@ -199,7 +199,7 @@
       .h2 5.7 Manejo de residuos en los almacenes y CEDI (centros de distribución)
 
     p.mb-4(data-aos="fade-right") El manejo integral de los residuos comprende un esfuerzo en común entre los almacenes (gestión interna) y el departamento de gestión ambiental (gestión externa) realizando mejoras en la prevención, el almacenamiento, la recolección, el transporte, el aprovechamiento, el tratamiento y la disposición final.
-    p.mb-4(data-aos="fade-right") Según estudios realizados en este tema se entiende que la prevención de la generación de residuos sólidos peligrosos y no peligrosos desde su origen, es la forma más eficaz de reducir la cantidad de residuos a manejar, el costo asociado a su manipulación y los impactos a la salud y al ambiente, esta actividad implica:
+    p.mb-4(data-aos="fade-right") Según estudios realizados en este tema, se entiende que la prevención de la generación de residuos sólidos peligrosos y no peligrosos desde su origen, es la forma más eficaz de reducir la cantidad de residuos a manejar, el costo asociado a su manipulación y los impactos a la salud y al ambiente, esta actividad implica:
 
     .row.justify-content-center
       .col-lg-12
@@ -223,9 +223,8 @@
             i.fas.fa-check-circle(style="color: #FE7062;")
             p.mb-0 Buenas prácticas operacionales, como el control de inventarios de materias primas utilizadas con el fin de establecer la cantidad de residuos a generar, buscando su reducción, implementando la optimización de los procesos productivos.
 
-    p.mb-4(data-aos="fade-right") El manejo integral de los residuos comprende un esfuerzo en común entre los almacenes (gestión interna) y el departamento de gestión ambiental (gestión externa) realizando mejoras en la prevención, el almacenamiento, la recolección, el transporte, el aprovechamiento, el tratamiento y la disposición final.
-    p.mb-4(data-aos="fade-right") En torno a estos procesos la organización debe establecer un término concordante con los resultados esperados y plantear una serie de objetivos y metas cuantitativas que permitan su medición. Estas pueden estar asociadas con actividades de reutilización de materiales que lo permitan, cambio en los insumos empleados en los procesos desarrollados y que generan impactos ambientales negativos por otros de menor impacto, reducción en la cantidad de residuos generados, incremento en la destinación adecuada de los residuos, establecimiento de acuerdos con proveedores de insumos o productos para la devolución de elementos vencidos, deteriorados o remanentes, entre otras metas que la organización considere necesarias.
-    p.mb-4(data-aos="fade-right") El diagnóstico, permite definir el tipo y cantidad de recipientes existentes y cuáles son los que se requieren para la adecuada separación de los residuos en todas las áreas de la organización. Algunos recipientes son desechables y otros reutilizables, pero todos deben cumplir con el color correspondiente a la clase de residuos que se va a depositar en ellos, como se ilustra en la siguiente figura a lo cual se le denomina código de colores, aspecto que no es obligatorio, pero sí importante y poco a poco la legislación va acercando este concepto a una obligatoriedad.
+    p.mb-4(data-aos="fade-right") En torno a estos procesos, la organización debe establecer un término concordante con los resultados esperados y plantear una serie de objetivos y metas cuantitativas que permitan su medición. Estas pueden estar asociadas con actividades de reutilización de materiales que lo permitan, cambio en los insumos empleados en los procesos desarrollados y que generan impactos ambientales negativos por otros de menor impacto, reducción en la cantidad de residuos generados, incremento en la destinación adecuada de los residuos, establecimiento de acuerdos con proveedores de insumos o productos para la devolución de elementos vencidos, deteriorados o remanentes, entre otras metas que la organización considere necesarias.
+    p.mb-4(data-aos="fade-right") El diagnóstico permite definir el tipo y cantidad de recipientes existentes y cuáles son los que se requieren para la adecuada separación de los residuos en todas las áreas de la organización. Algunos recipientes son desechables y otros reutilizables, pero todos deben cumplir con el color correspondiente a la clase de residuos que se va a depositar en ellos, como se ilustra en la siguiente figura a lo cual se le denomina código de colores, aspecto que no es obligatorio, pero sí importante y poco a poco la legislación va acercando este concepto a una obligatoriedad.
     p.mb-4(data-aos="fade-right") Para facilitar el proceso de separación en la fuente es conveniente que los recipientes estén rotulados teniendo en cuenta los siguientes aspectos:
 
     .row.justify-content-center.mb-5
@@ -245,7 +244,7 @@
             p.mb-0 No se requiere de bolsas del mismo color, estas pueden ser reemplazadas por bolsas transparentes, lo importante es que se haga una adecuada recolección.
     
     .titulo-sexto.color-acento-botones(data-aos="fade-right")
-      h5 Figura 13.
+      h5 Figura 15.
       span Código de colores para la separación de residuos
     figure(data-aos="zoom-in" style='margin-bottom:90px;')
       img(src='@/assets/curso/tema5/img8.svg', alt='Imagen que muestra el código de colores parala separación de residuos, esto es:<br>Rojo: residuos peligrosos<br>Café: residuos metálicos como las latas y los metales.<br>Blanco: residuos de vidrio<br>Azul: residuos plásticos<br>Gris: residuos de papel y cartón<br>Verde: residuos ordinarios e inertes<br>Amarillo: residuos biodegradables').mx-auto
@@ -265,7 +264,7 @@
     #t_5_8.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 5.8  Automatización y robótica, las nuevas tendencias
 
-    p.mb-4(data-aos="fade-right") La tendencia tecnológica avanza no solo en computación sino en todas las áreas de trabajo humano y la logística desde la operación de carga y su almacenamiento no se queda atrás, estos son los temas más relevantes para tener en cuenta en este elemento: 
+    p.mb-4(data-aos="fade-right") La tendencia tecnológica avanza no solo en computación, sino en todas las áreas de trabajo humano y la logística desde la operación de carga y su almacenamiento no se queda atrás, estos son los temas más relevantes para tener en cuenta en este elemento: 
     p.mb-4(data-aos="fade-right") Según la revista Stock Logistic, (2019) el control automático o automatización en logística se refiere al uso de sistemas de control, maquinaria o software para mejorar la eficiencia de las operaciones, este control normalmente se aplica a los procesos que se deben realizar en un almacén o centro de distribución y cuyo resultado es optimizar los procesos, porque, además de operaciones mecánicas, intervienen cierto manejo de información y elementos de control operativo que ayudan a mejorar la calidad. 
     p.mb-5(data-aos="fade-right") Para dar más profundidad al tema se trabajan a continuación algunas ventajas y desventajas de la automatización junto con los conceptos de mecanización y robotización que se deben tener en cuenta por ser tendencia:
 
@@ -286,7 +285,7 @@
                 p.mb-0 Control de la organización. Los sistemas suelen ser lo suficientemente flexibles como para adaptarse a las reglas de negocio de la compañía y, a la vez, potentes como para obligar a todos los usuarios, tanto internos como externos, para seguir las políticas que aseguren el envío eficiente y rentable.
               li(style="margin-bottom: 2px")
                 i.fas.fa-check-circle(style="color: #FE7062;")
-                p.mb-0 Mejora del servicio al cliente ya que se puede hacer un seguimiento en tiempo real de carga, auto pick-up, el seguro adecuado y la contabilidad de carga incorporando a sus especificaciones de encargo.
+                p.mb-0 Mejora del servicio al cliente, ya que se puede hacer un seguimiento en tiempo real de carga, auto pick-up, el seguro adecuado y la contabilidad de carga incorporando a sus especificaciones de encargo.
               li(style="margin-bottom: 2px")
                 i.fas.fa-check-circle(style="color: #FE7062;")
                 p.mb-0 Escalabilidad y velocidad. El software proporciona la facilidad de entrada en el sistema y gestionar con una mayor agilidad, por ejemplo, un almacén. Además, todas las facturas de transporte se pueden consolidar en una sola factura semanal, no importa cuántos envíos tiene en cada lugar.
@@ -323,13 +322,13 @@
           .col-lg-7.order-lg-1.order-2
             p.mb-4 La noción popular de robot hace referencia a un dispositivo humanoide con cierto grado de inteligencia, que substituye a las personas en la realización de tareas útiles. Para los temas de almacenamiento se puede definir como:
             p.mb-4 Apoyo funcional reprogramable, con capacidad para mover material o cargas en diferentes formas de manera única o repetitiva que ayuda con una tarea específica.
-            p En los procesos logísticos, su campo de acción es ilimitado, se realiza desde operaciones de ensamble hasta procesos de estibado picking, control de calidad, transporte de piezas, etc. El funcionamiento de un robot depende del computador mediante un lenguaje de programación adecuado, se precisan los movimientos de las acciones a ejecutar, así como el procesamiento de nuevas acciones, y sus principales características son:
+            p En los procesos logísticos, su campo de acción es ilimitado, se realiza desde operaciones de ensamble hasta procesos de estibado <i>picking</i>, control de calidad, transporte de piezas, etc. El funcionamiento de un robot depende del computador mediante un lenguaje de programación adecuado, se precisan los movimientos de las acciones a ejecutar, así como el procesamiento de nuevas acciones, y sus principales características son:
             .row.justify-content-center
               .col-lg-11
                 ul.lista-ul--color.lista-ul--separador
                   li(style="margin-bottom: 2px")
                     i.fas.fa-check-circle(style="color: #FE7062;")
-                    p.mb-0 #[strong Multifuncionalidad: ] versatilidad para llevar a cabo distintas tareas, incluso aquéllas no previstas en principio por los diseñadores, lo cual implica una considerable auto-adaptabilidad al entorno.
+                    p.mb-0 #[strong Multifuncionalidad: ] versatilidad para llevar a cabo distintas tareas, incluso aquellas no previstas en principio por los diseñadores, lo cual implica una considerable auto-adaptabilidad al entorno.
                   li(style="margin-bottom: 2px")
                     i.fas.fa-check-circle(style="color: #FE7062;")
                     p.mb-0 #[strong Programabilidad: ] capacidad para modificar la tarea mediante el cambio de programa, que propicia su adaptación rápida y económica a diferentes aplicaciones.
@@ -379,7 +378,7 @@
           ul.lista-ul--color.lista-ul--separador
             li(style="margin-bottom: 2px")
               i.fas.fa-check-circle(style="color: #FE7062;")
-              p.mb-0 #[strong Inventario de materias primas: ] elementos que se incorporan al proceso productivo para la obtención del producto final de la empresa objeto de su actividad; es decir, son aquellos elementos que, mediante elaboración o transformación se destinan a formar parte de los productos fabricados.
+              p.mb-0 #[strong Inventario de materias primas: ] elementos que se incorporan al proceso productivo para la obtención del producto final de la empresa objeto de su actividad; es decir, son aquellos elementos que, mediante elaboración o transformación, se destinan a formar parte de los productos fabricados.
             li(style="margin-bottom: 2px")
               i.fas.fa-check-circle(style="color: #FE7062;")
               p.mb-0 #[strong Inventario de productos en fabricación o en curso: ]  materiales que una vez han salido del almacén, se incorporan al ciclo de producción incrementando su valor. Se encuentran en fase de formación o transformación, una vez terminado el ejercicio.
@@ -388,7 +387,7 @@
               p.mb-0 #[strong Inventario de productos terminados: ] producto final del proceso productivo, por lo tanto, son fabricados por la propia empresa y están destinados al consumo final o a la utilización por otras empresas. 
             li(style="margin-bottom: 2px")
               i.fas.fa-check-circle(style="color: #FE7062;")
-              p.mb-0 #[strong Inventario de mercancías: ] lo constituyen todos aquellos bienes que le pertenecen a la empresa bien sea comercial o mercantil, los cuales los compran para luego venderlos sin ser modificados.
+              p.mb-0 #[strong Inventario de mercancías: ] lo constituyen todos aquellos bienes que le pertenecen a la empresa, bien sea comercial o mercantil, los cuales los compran para luego venderlos sin ser modificados.
       .row.justify-content-center(titulo="Según la función")  
         .col-lg-6.col-sm-8.col-10.mb-lg-0.mb-4
           figure
