@@ -165,7 +165,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '5.5',
-            titulo: 'Cross docking',
+            titulo: '<i>Cross docking</i>',
             hash: 't_5_5',
           },
           {
