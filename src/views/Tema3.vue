@@ -75,7 +75,7 @@
         figure.mb-4
           img(src='@/assets/curso/tema3/img2.svg', alt='Imagen decorativa')
         .h4.mb-4 Almacenamiento de productos intermedios
-        p  También llamados semielaborados, es donde se guardan aquellos elementos que ya han sufrido un proceso de ensamble o fabricación pero que aún se encuentran en una etapa intermedia del mismo, sirviendo como enlace entre las distintas fases de la línea de producción. Deben estar situados al interior de la fábrica ya que manejan tiempos de espera muy cortos para su uso. Deben estar siempre disponibles.
+        p  También llamados semielaborados, es donde se guardan aquellos elementos que ya han sufrido un proceso de ensamble o fabricación, pero que aún se encuentran en una etapa intermedia del mismo, sirviendo como enlace entre las distintas fases de la línea de producción. Deben estar situados al interior de la fábrica, ya que manejan tiempos de espera muy cortos para su uso. Deben estar siempre disponibles.
       .col-lg-4.col-sm-8(data-aos="fade-left")
         figure.mb-4
           img(src='@/assets/curso/tema3/img3.svg', alt='Imagen decorativa')
@@ -97,7 +97,7 @@
         figure.mb-4
           img(src='@/assets/curso/tema3/img4.svg', alt='Imagen decorativa')
         .h4.mb-4 Almacenamiento al aire libre
-        p.mb-0 Como su nombre lo indica son aquellos que se encuentran al aire libre y sin ningún control especial fuera de la seguridad, pues allí se almacenan productos que por su naturaleza no se ven altamente afectados por la condiciones climáticas o ambientales: automóviles, algunos materiales de construcción y por norma general productos no perecederos. Generalmente, estos depósitos se encuentran demarcados con cintas reflectivas y delimitados por cercas, vallas, rejas y lonas, ubicados a la intemperie. En algunos casos suele utilizarse protección adicional directamente en el embalaje de los productos, como plásticos, lonas especiales y cualquier elemento de propiedades anticorrosivas.
+        p.mb-0 Como su nombre lo indica, son aquellos que se encuentran al aire libre y sin ningún control especial fuera de la seguridad, pues allí se almacenan productos que por su naturaleza no se ven altamente afectados por las condiciones climáticas o ambientales: automóviles, algunos materiales de construcción y por norma general productos no perecederos. Generalmente, estos depósitos se encuentran demarcados con cintas reflectivas y delimitados por cercas, vallas, rejas y lonas, ubicados a la intemperie. En algunos casos suele utilizarse protección adicional directamente en el embalaje de los productos, como plásticos, lonas especiales y cualquier elemento de propiedades anticorrosivas.
       .col-lg-6.col-sm-10(data-aos="fade-left")
         figure.mb-4
           img(src='@/assets/curso/tema3/img5.svg', alt='Imagen decorativa')
@@ -121,7 +121,7 @@
         .h4 Almacén regional
         p.mb-4 Está dispuesto por zonas en lugares estratégicos para lograr la distribución del producto en menos de un día; en promedio, el almacén debe tener la capacidad técnica para recibir mercancía desde las plantas de producción en camiones grandes, de gran tonelaje y, eventualmente, distribuir a los almacenes más pequeños, de venta directa o minoristas.
         .h4 Almacén de tránsito
-        p.mb-5 Estos almacenes se encuentran situados en lugares estratégicos y su particularidad consiste en estar preparados para las entrada y salidas rápidas de mercancías, de forma que el índice de rotación de los productos sea lo más alto posible.
+        p.mb-5 Estos almacenes se encuentran situados en lugares estratégicos y su particularidad consiste en estar preparados para las entradas y salidas rápidas de mercancías, de forma que el índice de rotación de los productos sea lo más alto posible.
       .col-lg-5.col-10.align-self-center(data-aos="fade-left")
         figure.mb-4
           img(src='@/assets/curso/tema3/img6.svg', alt='Imagen decorativa').mx-auto
@@ -196,7 +196,7 @@
                   ul.lista-ul--color.lista-ul--separador
                     li(style="margin-bottom: 2px")
                       i.fas.fa-check-circle(style="color: #FE7062;")
-                      p.mb-0 #[strong Zona de despacho] <br>Lugar donde se lleva a cabo la expedición y revisión final de lasmercancías.
+                      p.mb-0 #[strong Zona de despacho] <br>Lugar donde se lleva a cabo la expedición y revisión final de las mercancías.
                     li(style="margin-bottom: 2px")
                       i.fas.fa-check-circle(style="color: #FE7062;")
                       p.mb-0 #[strong Zona de maniobras] <br>Sitio donde transitan tanto maquinarias como personas.
@@ -252,7 +252,7 @@
                       p.mb-0 Calcular la superficie total de tu almacén en metros cuadrados. Este dato se obtiene al adquirir el edificio, pero no dudes en confirmar su exactitud. Restar los espacios no dedicados al almacenaje de mercancías: baños, vestuarios, oficinas, etc.
                     li(style="margin-bottom: 2px")
                       i.fas.fa-check-circle(style="color: #FE7062;")
-                      p.mb-0 Determinar la altura máxima de almacenaje. Esto se obtiene restando elementos, como los sistemas de ventilación, iluminación u otros, a la altura del techo de la bodega.<br> Capacidad de almacenaje: (superficie del almacén - zonas no dedicadas al almacenaje) x Altura máxima de almacenaje
+                      p.mb-0 Determinar la altura máxima de almacenaje. Esto se obtiene restando elementos, como los sistemas de ventilación, iluminación u otros, a la altura del techo de la bodega.<br> Capacidad de almacenaje: (superficie del almacén - zonas no dedicadas al almacenaje) x Altura máxima de almacenaje.
               .h4 Calcular el espacio de almacenaje utilizado
               .row.justify-content-center.mb-4
                 .col-lg-12.mb-2
@@ -265,7 +265,7 @@
                       p.mb-0  Se resta el espacio no utilizado de cada uno de los sistemas de almacenaje a la capacidad de almacenaje del almacén.
                     li(style="margin-bottom: 2px")
                       i.fas.fa-check-circle(style="color: #FE7062;")
-                      p.mb-0 Cuanto mayor sea el porcentaje, mejor se aprovechará el espacio disponible. De lo contrario, se tendrá que tomar las medidas necesarias para ajustar este resultado.<br> Espacio de almacenaje utilizado: (capacidad de almacenaje - Espacios vacíos) x 100
+                      p.mb-0 Cuanto mayor sea el porcentaje, mejor se aprovechará el espacio disponible. De lo contrario, se tendrá que tomar las medidas necesarias para ajustar este resultado.<br> Espacio de almacenaje utilizado: (capacidad de almacenaje - Espacios vacíos) x 100.
 
 </template>
 
