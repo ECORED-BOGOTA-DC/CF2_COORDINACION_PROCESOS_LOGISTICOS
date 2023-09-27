@@ -359,7 +359,7 @@
             
     .row.justify-content-center.mb-4
       .col-lg-4.col-sm-8(data-aos="fade-right")
-        a.anexo(:href="obtenerLink('downloads/Otros_tipos_embalaje.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('downloads/Otros_tipos_de_embalaje.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -672,7 +672,7 @@ export default {
       {
         titulo: 'Embalaje compuesto',
         texto:
-          'Es un embalaje constituido por un recipiente interior formando un conjunto indisociable',
+          'Es un embalaje constituido por un recipiente interior formando un conjunto indisociable.',
         imagen: require('@/assets/curso/tema2/slyder/slyder2.svg'),
       },
       {

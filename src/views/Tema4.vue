@@ -212,7 +212,7 @@ export default {
       {
         titulo: 'Apiladoras',
         texto:
-          ' Es el resultado de dotar a un estibador de un elemento de elevación. Los patines inferiores se introducen por debajo de las estibas, por lo que las tablas inferiores de estos deben ir siempre en el sentido de penetración y nunca en sentido transversal, ya que se romperían al elevarlas. <br><br> Los apiladores son eléctricos y en el mercado se pueden encontrar tanto modelos que se manejan sin tener al operario subido, como otros en los que el operario va montado en ellos, ya sea de pie sobre una plataforma, o sentado.',
+          ' Es el resultado de dotar a un estibador de un elemento de elevación. Los patines inferiores se introducen por debajo de las estibas, por lo que las tablas inferiores de estos deben ir siempre en el sentido de penetración y nunca en sentido transversal, ya que se romperían al elevarlas.<br><br>Los apiladores son eléctricos y en el mercado se pueden encontrar tanto modelos que se manejan sin tener al operario subido, como otros en los que el operario va montado en ellos, ya sea de pie sobre una plataforma, o sentado.',
         imagen: require('@/assets/curso/tema4/img4.svg'),
         //leyendaImagen: 'Leyenda de la imagen',
       },

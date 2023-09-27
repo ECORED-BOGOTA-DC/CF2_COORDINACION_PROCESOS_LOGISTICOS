@@ -185,7 +185,7 @@
         figure.mb-4
           img(src='@/assets/curso/tema5/img6.svg', alt='Imagen decorativa').mx-auto
         .h4 El control de la temperatura en el almacén
-        p.mb-4 Desde el punto de vista de las condiciones de almacenamiento, los productos se dividen principalmente en tres grandes categorías: almacenaje a temperatura ambiente, refrigerados a temperatura controlada, entre 2 y 8 ºC, y congelados a diferentes temperaturas, habitualmente en torno a los -20 ºC
+        p.mb-4 Desde el punto de vista de las condiciones de almacenamiento, los productos se dividen principalmente en tres grandes categorías: almacenaje a temperatura ambiente, refrigerados a temperatura controlada, entre 2 y 8 ºC, y congelados a diferentes temperaturas, habitualmente en torno a los -20 ºC.
         p Desde el punto de vista de ISO (2020) se dice que se debe garantizar que, en el primer tipo, el de temperatura ambiente, los materiales se mantienen entre los 25 y 30 ºC en todos los casos, que es el máximo que se establece para la gran mayoría de estos productos, pero se debe tener en cuenta el sitio geográfico desde donde se está trabajando porque hay poblaciones con temperaturas por fuera de estos rangos de temperatura.
       .col-lg-6.col-sm-10(data-aos="fade-left")
         figure.mb-4
@@ -328,7 +328,7 @@
                 ul.lista-ul--color.lista-ul--separador
                   li(style="margin-bottom: 2px")
                     i.fas.fa-check-circle(style="color: #FE7062;")
-                    p.mb-0 #[strong Multifuncionalidad: ] versatilidad para llevar a cabo distintas tareas, incluso aquellas no previstas en principio por los diseñadores, lo cual implica una considerable auto-adaptabilidad al entorno.
+                    p.mb-0 #[strong Multifuncionalidad: ] versatilidad para llevar a cabo distintas tareas, incluso aquellas no previstas en principio por los diseñadores, lo cual implica un considerable auto-adaptabilidad al entorno.
                   li(style="margin-bottom: 2px")
                     i.fas.fa-check-circle(style="color: #FE7062;")
                     p.mb-0 #[strong Programabilidad: ] capacidad para modificar la tarea mediante el cambio de programa, que propicia su adaptación rápida y económica a diferentes aplicaciones.
