@@ -134,7 +134,7 @@
           .tarjeta.transparent1(style="border-bottom: none;")
             .p-4
               .h4  Almacenamiento de mercancías según disposición
-              p.mb-4 Estos almacenes se encuentran situados en lugares estratégicos y su particularidad consiste en estar preparados para las entrada y salidas rápidas de mercancías, de forma que el índice de rotación de los productos sea lo más alto posible.
+              p.mb-4 dentro de este tipo de almacenamiento se debe tener en cuenta que debe existir una adecuada disposición de las mercancías y se pueden encontrar los siguientes:
     
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="zoom-in")

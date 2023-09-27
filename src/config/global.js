@@ -278,9 +278,7 @@ export default {
     },
     {
       referencia:
-        'Revista Stock Logistic. (2019). La automatización en el sector logístico.',
-      link:
-        'https://www.stocklogistic.com/la-automatizacion-en-el-sector-logistico/',
+        'Revista Stock Logistic. (2019). La automatización en el sector logístico. Stock Logistic.',
     },
     {
       referencia:

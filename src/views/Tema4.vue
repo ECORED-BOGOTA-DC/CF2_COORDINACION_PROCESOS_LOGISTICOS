@@ -13,7 +13,7 @@
     #t_4_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 4.1 Talento humano
 
-    p.mb-4(data-aos="fade-right") La mayor parte de las empresas o industrias de tamaño grande o mediano realizan una actividad de almacenaje, pero cada empresa es distinta, por lo que no hay uniformidad en el lugar en el que están ubicados los puestos relacionados con el almacenamiento en la organización de la empresa. Las funciones de cada puesto varían en función de las empresas; a pesar de esto hay determinados “puestos tipo” en el almacén que normalmente cuentan con unas funciones básicas comunes, como se muestra a continuación:
+    p.mb-4(data-aos="fade-right") La mayor parte de las empresas o industrias de tamaño grande o mediano realizan una actividad de almacenaje, pero cada empresa es distinta, por lo que no hay uniformidad en el lugar en el que están ubicados los puestos relacionados con el almacenamiento en la organización de la empresa. Las funciones de cada puesto varían en función de las empresas; a pesar de esto hay determinados “puestos” en el almacén que normalmente cuentan con unas funciones básicas comunes, como se muestra a continuación:
 
     .row.justify-content-center.mb-4
       TabsA.color-acento-contenido.mb-0(data-aos="zoom-in")
@@ -212,7 +212,7 @@ export default {
       {
         titulo: 'Apiladoras',
         texto:
-          ' Es el resultado de dotar a un estibador de un elemento de elevación. Los patines inferiores se introducen por debajo de las estibas, por lo que las tablas inferiores de estos deben ir siempre en el sentido de penetración y nunca en sentido transversal, ya que se romperían al elevarlas. <br><br> Los apiladores son eléctricos y en el mercado se pueden encontrar tanto modelos que se manejan a pie, como otros en los que el operario va montado en ellos, ya sea de pie sobre una plataforma, o sentado.',
+          ' Es el resultado de dotar a un estibador de un elemento de elevación. Los patines inferiores se introducen por debajo de las estibas, por lo que las tablas inferiores de estos deben ir siempre en el sentido de penetración y nunca en sentido transversal, ya que se romperían al elevarlas. <br><br> Los apiladores son eléctricos y en el mercado se pueden encontrar tanto modelos que se manejan sin tener al operario subido, como otros en los que el operario va montado en ellos, ya sea de pie sobre una plataforma, o sentado.',
         imagen: require('@/assets/curso/tema4/img4.svg'),
         //leyendaImagen: 'Leyenda de la imagen',
       },

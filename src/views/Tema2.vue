@@ -272,7 +272,7 @@
                       i.fas.fa-check-circle(style="color: #FE7062;")
                       strong Animales vivos
                     li 
-                      p Conforme lo dice la Convención sobre el Comercio Internacional de Especies Amenazadas de Fauna y Flora Silvestres - CITES - es un acuerdo internacional concertado entre los gobiernos, cuya finalidad es velar por que el comercio internacional de especímenes de animales y plantas silvestres que no constituyan una amenaza para su supervivencia de las especies.
+                      p Conforme lo dice la Convención sobre el Comercio Internacional de Especies Amenazadas de Fauna y Flora Silvestres - CITES - es un acuerdo internacional concertado entre los gobiernos, cuya finalidad es velar porque el comercio internacional de especímenes de animales y plantas silvestres que no constituyan una amenaza para su supervivencia de las especies.
                 .col-lg-4
                   figure(style='text-align: -webkit-center')
                     img.mb-4(src='@/assets/curso/tema2/img13.svg', alt='Imagen decorativa', style='max-width: 350px;')
@@ -610,7 +610,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 8.
-          span xxxxx
+          span Elementos que se deben incluir en el mercado de cajas
         figure.mb-5(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img18.svg', alt='Imagen que muestra los elementos a incluir en un marcado de cajas, estos son:<br>1. número de bultos y tamaño de caja.<br>2. Destinatario, destino y número de orden.<br>3. Punto de entrada.<br>4. País de origen.<br>5. Indicación de peso.<br>6. Marca del despachador.<br>7. Pictogramas de manejo.')
     
